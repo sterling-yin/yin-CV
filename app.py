@@ -62,7 +62,6 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Research Interests")
@@ -103,13 +102,13 @@ Publications3 = {
 # --- Selected Publications ---
 st.write('\n')
 st.subheader("Selected Publications")
-st.write("🔖", "***Concrete Constitutive Models***")
+st.write("🌌", "***Concrete Constitutive Models***")
 for article, link in Publications1.items():
     st.write(f"[{article}]({link})")
-st.write("🔖", "***Dynamic Behaviour of Advanced Materials***")
+st.write("🌌", "***Dynamic Behaviour of Advanced Materials***")
 for article, link in Publications2.items():
     st.write(f"[{article}]({link})")
-st.write("🔖", "***Concrete Fracture Mechanics***")
+st.write("🌌", "***Concrete Fracture Mechanics***")
 for article, link in Publications3.items():
     st.write(f"[{article}]({link})")
 
