@@ -25,12 +25,6 @@ SOCIAL_MEDIA = {
     "GitHub": "https://sterling-yin.github.io/",
     "ORCID": "https://orcid.org/0000-0001-9547-2681",
 }
-PROJECTS = {
-#    "🏆 Sales Dashboard - Comparing sales across three stores": "https://youtu.be/Sb0A9i6d320",
-#    "🏆 Income and Expense Tracker - Web app with NoSQL database": "https://youtu.be/3egaMfE9388",
-#    "🏆 Desktop Application - Excel2CSV converter with user settings & menubar": "https://youtu.be/LzCfNanQ_9c",
-#    "🏆 MyToolBelt - Custom MS Excel add-in to combine Python & Excel": "https://pythonandvba.com/mytoolbelt/",
-}
 
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -53,12 +47,12 @@ with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.download_button(
-        label=" 📄 Download Resume",
+        label=" 📃 Download Resume",
         data=PDFbyte,
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("📫", EMAIL)
+    st.write("📧", EMAIL)
 
 
 # --- SOCIAL LINKS ---
@@ -73,10 +67,10 @@ st.write('\n')
 st.subheader("Research Interests")
 st.write(
     """
-- ✴️ Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]
-- ✴️ Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]
-- ✴️ Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc]
-- ✴️ Advanced numerical approach [e.g., meshfree/particle method]
+- 🌟 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]
+- 🌟 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]
+- 🌟 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc]
+- 🌟 Advanced numerical approach [e.g., meshfree/particle method]
 """
 )
 
@@ -91,23 +85,19 @@ st.write(
 """
 )
 
+Publications = {
+    "📄 Yin X, Li Q*, Chen B, Xu S. An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings. Cement and Concrete Composites. 2023;137:104911.": "https://www.doi.org/10.1016/j.cemconcomp.2022.104911",
+    "📄 Yin X, Li Q*, Wang Q, Chen B, Shu C, Xu S. Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. International Journal of Mechanical Sciences. 2024;264:108826.": "https://www.doi.org/10.1016/j.ijmecsci.2023.108826",
+    "📄 Yin X, Li Q*, Xu X, Chen B, Guo K, Xu S. Investigation of continuous surface cap model (CSCM) for numerical simulation of strain-hardening fibre-reinforced cementitious composites against low-velocity impacts. Composite Structures. 2023;304:116424.": "https://www.doi.org/10.1016/j.compstruct.2022.116424",
+    "📄 Yin X, Li Q*, Wang Q, Chen B, Xu S. Experimental and numerical investigations on the stress waves propagation in strain-hardening fiber-reinforced cementitious composites: Stochastic analysis using polynomial chaos expansions. Journal of Building Engineering. 2023;74:106902.": "https://www.doi.org/10.1016/j.jobe.2023.106902",
+    "📄 Yin X, Li Q*, Wang Q, Reinhardt H-W, Xu S. The double-K fracture model: A state-of-the-art review. Engineering Fracture Mechanics. 2023;277:108988.": "https://www.doi.org/10.1016/j.engfracmech.2022.108988",
+}
+
 # --- Selected Publications ---
 st.write('\n')
 st.subheader("Selected Publications")
-st.write(
-    """
-- 📄 Yin X, Li Q*, Chen B, Xu S. An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings. Cement and Concrete Composites. 2023;137:104911. 
-https://www.doi.org/10.1016/j.cemconcomp.2022.104911
-- 📄 Yin X, Li Q*, Wang Q, Chen B, Shu C, Xu S. Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. International Journal of Mechanical Sciences. 2024;264:108826
-https://www.doi.org/10.1016/j.ijmecsci.2023.108826
-- 📄 Yin X, Li Q*, Xu X, Chen B, Guo K, Xu S. Investigation of continuous surface cap model (CSCM) for numerical simulation of strain-hardening fibre-reinforced cementitious composites against low-velocity impacts. Composite Structures. 2023;304:116424.
-https://www.doi.org/10.1016/j.compstruct.2022.116424
-- 📄 Yin X, Li Q*, Wang Q, Chen B, Xu S. Experimental and numerical investigations on the stress waves propagation in strain-hardening fiber-reinforced cementitious composites: Stochastic analysis using polynomial chaos expansions. Journal of Building Engineering. 2023;74:106902.
-https://www.doi.org/10.1016/j.jobe.2023.106902
-- 📄 Yin X, Li Q*, Wang Q, Reinhardt H-W, Xu S. The double-K fracture model: A state-of-the-art review. Engineering Fracture Mechanics. 2023;277:108988.
-https://www.doi.org/10.1016/j.engfracmech.2022.108988
-"""
-)
+for project, link in Publications.items():
+    st.write(f"[{project}]({link})")
 
 # --- Skills and Expertise ---
 st.write('\n')
@@ -120,11 +110,3 @@ st.write(
 - 📚 Machine Learning
 """
 )
-
-
-# --- Projects & Accomplishments ---
-st.write('\n')
-st.subheader("Projects & Accomplishments")
-st.write("---")
-for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
