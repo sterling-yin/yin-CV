@@ -62,6 +62,15 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
+# --- Biography ---
+st.write('\n')
+st.subheader("Biography")
+st.write("""
+Dr. Yin was born in Baotou, Inner Mongolia, China. He received his BEng degree from the Ocean University of China in 2017. He pursued further study at the Zhejiang University under the supervision of academician Prof. Shilang Xu, and obtained his PhD degree in 2023.
+
+His research focuses on ***Impact Dynamics***, and has authored/co-authored 16 papers from SCI journals such as ***CCC***, ***CCR***, ***CS***, ***ES***, ***IJIE***, ***IJMS***, ***IJSS***, ***EFM***, with two papers recognized as **ESI Highly Cited Papers**.
+         """)
+
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Research Interests")
@@ -69,7 +78,7 @@ st.write(
     """
 - 📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]
 - 📌 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]
-- 📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc]
+- 📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc.]
 - 📌 Advanced numerical approach [e.g., meshfree/particle method]
 """
 )
@@ -111,15 +120,3 @@ for article, link in Publications2.items():
 st.write("🌌", "***Concrete Fracture Mechanics***")
 for article, link in Publications3.items():
     st.write(f"[{article}]({link})")
-
-# --- Skills and Expertise ---
-st.write('\n')
-st.subheader("Skills and Expertise")
-st.write(
-    """
-- 📚 Concrete Material Technology
-- 📚 Finite Element Analysis
-- 📚 Split-Hopkinson Bar
-- 📚 Machine Learning
-"""
-)
