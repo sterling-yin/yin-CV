@@ -68,10 +68,10 @@ st.write('\n')
 st.subheader("Research Interests")
 st.write(
     """
-- 🌟 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]
-- 🌟 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]
-- 🌟 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc]
-- 🌟 Advanced numerical approach [e.g., meshfree/particle method]
+- 📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]
+- 📌 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]
+- 📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc]
+- 📌 Advanced numerical approach [e.g., meshfree/particle method]
 """
 )
 
@@ -80,9 +80,9 @@ st.write('\n')
 st.subheader("Education & Work")
 st.write(
     """
-    - 🏫 Postdoctoral Fellow, 2023.10-, Zhejiang University (Supervisor: Prof. Qinghua Li)
-    - 🎓 Ph.D, 2017.9-2023.9, Structural Engineering, Zhejiang University, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu) 
-    - 🎓 BEng, 2013.8-2017.6, Civil Engineering, Ocean University of China, Qingdao, China
+    - ⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li)
+    - ⭐ Ph.D, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: **Academician Prof. Shilang Xu**) 
+    - ⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China
 """
 )
 
