@@ -66,7 +66,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 st.write('\n')
 st.subheader("Biography")
 st.write("""
-I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the Ocean University of China in 2017. I pursued further study at the Zhejiang University under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
+I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the *Ocean University of China* in 2017. I pursued further study at the *Zhejiang University* under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
 
 My research focuses on ***Impact Dynamics***, and I have authored/co-authored 16 papers from SCI journals such as *CCC*, *CCR*, *CS*, *ES*, *IJIE*, *IJMS*, *IJSS*, *EFM*, with two papers recognized as **ESI Highly Cited Papers**.
          """)
