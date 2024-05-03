@@ -101,11 +101,14 @@ Publications1 = {
 
 Publications2 = {
     "► Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. International Journal of Mechanical Sciences. 2024;264:108826.": "https://www.doi.org/10.1016/j.ijmecsci.2023.108826",
-    "► Experimental and numerical investigations on the stress waves propagation in strain-hardening fiber-reinforced cementitious composites: Stochastic analysis using polynomial chaos expansions. Journal of Building Engineering. 2023;74:106902.": "https://www.doi.org/10.1016/j.jobe.2023.106902",
 }
 
 Publications3 = {
     "► The double-K fracture model: A state-of-the-art review. Engineering Fracture Mechanics. 2023;277:108988.": "https://www.doi.org/10.1016/j.engfracmech.2022.108988",
+}
+
+Publications4 = {
+    "► Experimental and numerical investigations on the stress waves propagation in strain-hardening fiber-reinforced cementitious composites: Stochastic analysis using polynomial chaos expansions. Journal of Building Engineering. 2023;74:106902.": "https://www.doi.org/10.1016/j.jobe.2023.106902",
 }
 
 # --- Selected Publications ---
@@ -116,6 +119,9 @@ for article, link in Publications1.items():
     st.write(f"[{article}]({link})")
 st.write("🌌", "***Dynamic Behaviour of Advanced Materials***")
 for article, link in Publications2.items():
+    st.write(f"[{article}]({link})")
+st.write("🌌", "***Stress Wave Propagation***")
+for article, link in Publications4.items():
     st.write(f"[{article}]({link})")
 st.write("🌌", "***Concrete Fracture Mechanics***")
 for article, link in Publications3.items():
