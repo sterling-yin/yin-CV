@@ -12,7 +12,7 @@ profile_pic = current_dir / "assets" / "profile-pic.jpg"
 
 
 # --- GENERAL SETTINGS ---
-PAGE_TITLE = "Xing YIN, Ph.D."
+PAGE_TITLE = "CV | Xing YIN, Ph.D."
 PAGE_ICON = ":star:"
 NAME = "Xing YIN (银星)"
 DESCRIPTION = """
