@@ -14,11 +14,11 @@ profile_pic = current_dir / "assets" / "profile-pic.jpg"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "CV | Xing YIN, PhD"
 PAGE_ICON = ":star:"
-NAME = "Xing YIN (银星)"
+NAME = "银星 Xing YIN"
 DESCRIPTION = """
 Doctor of Philosophy   
 Postdoctoral Fellow at ***Zhejiang University***
-**Members of Academician Prof. Shilang Xu's Lab**
+**Members of Academician Shilang Xu's Lab**
 
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
 """
@@ -91,8 +91,8 @@ st.write('\n')
 st.subheader("Education & Work")
 st.write(
     """
-    - ⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li)
-    - ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu) 
+    - ⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li 李庆华)
+    - ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu 徐世烺) 
     - ⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China
 """
 )
