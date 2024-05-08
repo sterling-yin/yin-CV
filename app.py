@@ -18,6 +18,7 @@ NAME = "Xing YIN (银星)"
 DESCRIPTION = """
 Doctor of Philosophy   
 Postdoctoral Fellow at ***Zhejiang University***
+**Members of Academician Prof. Shilang Xu's Lab**
 
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
 """
