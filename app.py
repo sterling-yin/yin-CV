@@ -14,7 +14,7 @@ profile_pic = current_dir / "assets" / "profile-pic.jpg"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "CV | Xing YIN, PhD"
 PAGE_ICON = ":star:"
-NAME = "银星 Xing YIN"
+NAME = "Xing YIN 银星"
 DESCRIPTION = """
 Doctor of Philosophy   
 Postdoctoral Fellow at ***Zhejiang University***
