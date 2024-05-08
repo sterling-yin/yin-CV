@@ -16,7 +16,7 @@ PAGE_TITLE = "CV | Xing YIN, PhD"
 PAGE_ICON = ":star:"
 NAME = "Xing YIN (银星)"
 DESCRIPTION = """
-> *Looking for a Postdoctoral / Visiting Scholar Position ...*
+>*Looking for a Postdoctoral / Visiting Scholar Position ...*
 
 Doctor of Philosophy   
 Postdoctoral Fellow at ***Zhejiang University***
