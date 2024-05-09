@@ -19,7 +19,7 @@ DESCRIPTION = """
 Doctor of Philosophy   
 Postdoctoral Fellow at ***Zhejiang University***
 **Members of Academician Shilang Xu's Lab**
-浙江大学高性能结构研究所徐世烺院士研究团队成员
+浙江大学高性能结构研究所徐世烺院士团队成员
 
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
 """
