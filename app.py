@@ -19,6 +19,7 @@ DESCRIPTION = """
 Doctor of Philosophy   
 Postdoctoral Fellow at ***Zhejiang University***
 **Members of Academician Shilang Xu's Lab**
+浙江大学高性能结构研究所徐世烺院士研究团队成员
 
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
 """
@@ -91,8 +92,8 @@ st.write('\n')
 st.subheader("Education & Work")
 st.write(
     """
-    - ⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li 李庆华)
-    - ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu 徐世烺) 
+    - ⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li)
+    - ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu) 
     - ⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China
 """
 )
