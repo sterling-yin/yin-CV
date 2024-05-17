@@ -168,7 +168,7 @@ st.write('\n')
 st.subheader("Complete List of Publications")
 
 # --- 2024
-st.write("🏗️", "**2024 | Zhejiang University  浙大**")
+st.write("🏗️", "**2024 | Zhejiang University | 浙江大学**")
 st.write(
     """
 - 📑 [017] Wang Q, Li Q\*, **Yin X**, Xu S. Structural size effect in the mode I and mixed mode I/II fracture of strain-hardening cementitious composites (SHCC). *International Journal of Solids and Structures*. 2024;288:112628.
@@ -178,7 +178,7 @@ st.write(
 )
 
 # --- 2023
-st.write("✨", "**2023 | Zhejiang University  浙大**")
+st.write("✨", "**2023 | Zhejiang University | 浙江大学**")
 st.write(
     """
 - 📑 [014] **Yin X**, Li Q\*, Wang Q, Chen B, Xu S. Experimental and numerical investigations on the stress waves propagation in strain-hardening fiber-reinforced cementitious composites: Stochastic analysis using polynomial chaos expansions. *Journal of Building Engineering*. 2023;74:106902.
@@ -192,7 +192,7 @@ st.write(
 )
 
 # --- 2022
-st.write("✨", "**2022 | Zhejiang University  浙大**")
+st.write("✨", "**2022 | Zhejiang University | 浙江大学**")
 st.write(
     """
 - 📑 [007] 李庆华, **银星**, 郭康安, 徐世烺\*. 超高韧性水泥基复合材料与活性粉末混凝土界面剪切强度试验研究. *工程力学*. 2022;39(08):232-244.
@@ -203,7 +203,7 @@ st.write(
 )
 
 # --- 2021
-st.write("✨", "**2021 | Zhejiang University  浙大**")
+st.write("✨", "**2021 | Zhejiang University | 浙江大学**")
 st.write(
     """
 - 📑 [003] Xu S, Guo K, Li Q\*, **Yin X**, Huang B. Shear fracture performance of the interface between ultra-high toughness cementitious composites and reactive powder concrete. *Composite Structures*. 2021;275:114403.
