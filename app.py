@@ -88,6 +88,7 @@ st.write(
 - 📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc.]      
 - 📌 Advanced numerical approach [e.g., meshfree/particle method]     
 
+
 - 📌 工程材料的动态力学行为，如动态压缩、动态断裂、层裂等    
 - 📌 工程结构的动态力学响应，如低速冲击、爆炸、侵彻等      
 - 📌 水泥基材料本构关系，如KCC、CSC、RHT等        
@@ -104,6 +105,7 @@ st.write(
     - ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu)     
     - ⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China        
 
+    
     - ⭐ 博士后、助理研究员，2023.10-，浙江大学建筑工程学院，合作导师为国家杰青李庆华教授    
     - ⭐ 博士研究生，2017.9-2023.99，浙江大学结构工程专业，导师为中国科学院院士徐世烺教授    
     - ⭐ 本科，2013.8-2017.6，中国海洋大学土木工程专业    
