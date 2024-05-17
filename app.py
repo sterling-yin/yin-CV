@@ -83,10 +83,14 @@ st.write('\n')
 st.subheader("Research Interests")
 st.write(
     """
-- 📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.] | 工程材料的动态力学行为，如动态压缩、动态断裂、层裂等
-- 📌 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.] | 工程结构的动态力学响应，如低速冲击、爆炸、侵彻等
-- 📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc.] | 水泥基材料本构关系，如KCC、CSC、RHT等
-- 📌 Advanced numerical approach [e.g., meshfree/particle method] | 先进高保真数值分析方法，如无网格法/粒子法
+- 📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]     
+- 📌 工程材料的动态力学行为，如动态压缩、动态断裂、层裂等      
+- 📌 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]      
+- 📌 工程结构的动态力学响应，如低速冲击、爆炸、侵彻等      
+- 📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc.]      
+- 📌 水泥基材料本构关系，如KCC、CSC、RHT等        
+- 📌 Advanced numerical approach [e.g., meshfree/particle method]     
+- 📌 先进高保真数值分析方法，如无网格法/粒子法
 """
 )
 
