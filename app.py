@@ -14,11 +14,12 @@ profile_pic = current_dir / "assets" / "profile-pic.jpg"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "CV | Xing YIN, PhD"
 PAGE_ICON = ":star:"
-NAME = "Xing YIN 银星"
+NAME = "Xing YIN  银星"
 DESCRIPTION = """
-Doctor of Philosophy   
-Postdoctoral Fellow at ***Zhejiang University***
-**Member of Academician Shilang Xu's Lab**   
+Doctor of Philosophy  工学博士
+Postdoctoral Fellow at ***Zhejiang University***   
+浙江大学建筑工程学院博士后、助理研究员
+**Member of Academician Shilang Xu's Lab**    
 浙江大学高性能结构研究所徐世烺院士团队成员
 
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
@@ -73,7 +74,9 @@ st.write("""
 I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the *Ocean University of China* in 2017. I pursued further study at the *Zhejiang University* under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
 
 My research focuses on ***Impact Dynamics***, and I have authored/co-authored 16 papers from SCI journals such as *CCC*, *CCR*, *CS*, *ES*, *IJIE*, *IJMS*, *IJSS*, *EFM*, with two papers recognized as ESI Highly Cited Papers.
-         """)
+
+长期专注于先进建筑结构与材料冲击动力学研究，在工程材料领域的Cement and Concrete Composites (CCC)、Cement and Concrete Research (CCR)，结构工程领域的Composite Structures (CS)、Engineering Structures (ES)，力学领域的International Journal of Mechanical Sciences (IJMS)、International Journal of Solids and Structures (IJSS)、Engineering Fracture Mechanics (EFM)，冲击动力学领域的International Journal of Impact Engineering (IJIE) 等顶级/权威期刊发表高水平论文10余篇，其中2篇曾入选ESI高被引论文。
+                  """)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
@@ -81,9 +84,13 @@ st.subheader("Research Interests")
 st.write(
     """
 - 📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]
+-     工程材料的动态力学行为，如动态压缩、动态断裂、层裂等
 - 📌 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]
+-     工程结构的动态力学响应，如低速冲击、爆炸、侵彻等
 - 📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc.]
+-     水泥基材料本构关系，如KCC、CSC、RHT等
 - 📌 Advanced numerical approach [e.g., meshfree/particle method]
+-     先进高保真数值分析方法，如无网格法/粒子法
 """
 )
 
@@ -93,8 +100,11 @@ st.subheader("Education & Work")
 st.write(
     """
     - ⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li)
+    -     博士后，2023.10-，浙江大学建筑工程学院，合作导师为国家杰青李庆华教授 
     - ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu) 
+    -     博士研究生，2017.9-2023.99，浙江大学结构工程专业，导师为中国科学院院士徐世烺教授
     - ⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China
+    -     本科，2013.8-2017.6，中国海洋大学土木工程专业
 """
 )
 
