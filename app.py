@@ -75,7 +75,7 @@ I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the 
 
 My research focuses on ***Impact Dynamics***, and I have authored/co-authored 16 papers from SCI journals such as *CCC*, *CCR*, *CS*, *ES*, *IJIE*, *IJMS*, *IJSS*, *EFM*, with two papers recognized as ESI Highly Cited Papers.
 
-长期专注于先进建筑结构与材料冲击动力学研究，在工程材料领域的*Cem. Concr. Compos.*(CCC)、*Cem. Concr. Res.*(CCR)，结构工程领域的*Compos. Struct.*(CS)、*Eng Struct.*(ES)，力学领域的*Int. J. Mech. Sci.*(IJMS)、*Int. J. Solids. Struct.*(IJSS)、*Eng. Fract. Mech.*(EFM)，冲击动力学领域的*Int. J. Impact Eng.*(IJIE) 等期刊发表高水平SCI论文16篇，其中2篇曾入选ESI高被引论文。
+长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的*Cem. Concr. Compos.*(CCC)、*Cem. Concr. Res.*(CCR)，结构工程领域的*Compos. Struct.*(CS)、*Eng Struct.*(ES)，力学领域的*Int. J. Mech. Sci.*(IJMS)、*Int. J. Solids. Struct.*(IJSS)、*Eng. Fract. Mech.*(EFM)，冲击动力学领域的*Int. J. Impact Eng.*(IJIE) 等期刊发表高水平SCI论文16篇，其中2篇曾入选ESI高被引论文。
                   """)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
