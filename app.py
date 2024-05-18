@@ -1,6 +1,8 @@
 from pathlib import Path
 
 import streamlit as st
+import pandas as pd
+import numpy as np
 from PIL import Image
 
 
@@ -162,6 +164,17 @@ st.write("🌌", "***Concrete Fracture Mechanics***")
 for article, link in Publications3.items():
     st.write(f"[{article}]({link})")
 st.write("---")
+
+# --- Publication trend ---
+st.write('\n')
+st.subheader("Publication Trend")
+data = {
+    'Year': [2021, 2022, 2023, 2024],
+    'Publication': [3, 4, 7, 3]
+}
+df = pd.DataFrame(data)
+df.set_index('Year', inplace=True)
+st.bar_chart(df, y = "Publication")
 
 # --- Complete List of Publications ---
 st.write('\n')
