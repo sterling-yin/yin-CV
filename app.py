@@ -174,7 +174,7 @@ data = {
 }
 df = pd.DataFrame(data)
 df.set_index('Year', inplace=True)
-st.bar_chart(df, y = "Publication", color="white")
+st.bar_chart(df, y = "Publication")
 
 # --- Complete List of Publications ---
 st.write('\n')
