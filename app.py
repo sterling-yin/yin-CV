@@ -176,7 +176,7 @@ data = {
 }
 df = pd.DataFrame(data)
 df.set_index('Year', inplace=True)
-st.bar_chart(df, y = "Publication", color="#ffffff")
+st.bar_chart(df, y = "Publication", color="#e6e6e4")
 
 # ---  Geographic Citation Map ---
 st.write('\n')
