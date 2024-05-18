@@ -18,8 +18,8 @@ NAME = "Xing YIN  银星"
 DESCRIPTION = """
 Doctor of Philosophy  工学博士     
 Postdoctoral Fellow at ***Zhejiang University***        
-浙江大学建筑工程学院博士后、助理研究员              
 **Member of Academician Shilang Xu's Lab**         
+浙江大学建筑工程学院博士后、助理研究员         
 浙江大学高性能结构研究所徐世烺院士团队成员
 
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
@@ -103,7 +103,7 @@ st.write(
 st.write('\n')
 st.subheader("个人简介")
 st.write("""
-银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的Cem. Concr. Compos.、Cem. Concr. Res.，结构工程领域的Compos. Struct.、Eng. Struct.，力学领域的Int. J. Mech. Sci.、Int. J. Solids. Struct.、Eng. Fract. Mech.、Int. J. Impact Eng.等期刊发表高水平SCI论文16篇，其中2篇曾入选ESI高被引论文。    
+银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的Cem. Concr. Compos.、Cem. Concr. Res.，结构工程领域的Compos. Struct.、Eng. Struct.，力学领域的Int. J. Mech. Sci.、Int. J. Solids Struct.、Eng. Fract. Mech.、Int. J. Impact Eng.等期刊发表高水平SCI论文16篇，其中2篇曾入选ESI高被引论文。    
                   """)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
