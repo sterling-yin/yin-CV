@@ -11,6 +11,7 @@ current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.jpg"
+map = current_dir / "assets" / "map.png"
 
 
 # --- GENERAL SETTINGS ---
@@ -44,6 +45,7 @@ with open(css_file) as f:
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
+map = Image.open(map)
 
 
 # --- HERO SECTION ---
@@ -175,6 +177,11 @@ data = {
 df = pd.DataFrame(data)
 df.set_index('Year', inplace=True)
 st.bar_chart(df, y = "Publication")
+
+# ---  Geographic Citation Map ---
+st.write('\n')
+st.subheader("Geographic Citation Map")
+st.image(map)
 
 # --- Complete List of Publications ---
 st.write('\n')
