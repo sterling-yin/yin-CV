@@ -3,6 +3,7 @@ from pathlib import Path
 import streamlit as st
 import pandas as pd
 import numpy as np
+import plotly.express as px
 from PIL import Image
 
 
@@ -175,6 +176,53 @@ data = {
 df = pd.DataFrame(data)
 df.set_index('Year', inplace=True)
 st.bar_chart(df, y = "Publication")
+
+
+# ---  Geographic Citation Map ---
+st.write('\n')
+st.subheader("Geographic Citation Map")
+countries = [
+    "China", "Hong Kong","Taiwan", "United States", "South Korea", "Australia", "India",
+    "Germany", "Viet Nam", "Canada", "Iran", "Iraq", "Netherlands", "Algeria",
+    "Belgium", "Cameroon", "France", "Gabon", "Japan", "Malaysia", "Mexico",
+    "New Zealand", "Poland", "Russian Federation", "Spain", "United Kingdom"
+]
+
+map = pd.DataFrame({
+    "country/territory": countries,
+    "value": [1] * len(countries) 
+})
+
+fig = px.choropleth(map, 
+                    locations="country/territory", 
+                    locationmode='country names',
+                    color="value",
+                    hover_name=None,
+                    labels=None,
+                    color_continuous_scale=["#454545", "#454545"], 
+                    range_color=(1, 1),
+                    projection ="orthographic",
+)
+
+fig.update_geos(
+    bgcolor=None,
+    oceancolor="white",
+    coastlinecolor="white", 
+    coastlinewidth=0,
+    countrycolor="white", 
+    countrywidth=0,
+    framecolor="white",
+    framewidth=0,
+    landcolor="darkgray",
+    showland=True,
+    showocean=True,
+    showcountries=None,  
+    showcoastlines=None,  
+    showframe=None,
+)
+fig.update_layout(coloraxis_showscale=False)
+st.plotly_chart(fig)
+
 
 # --- Complete List of Publications ---
 st.write('\n')
