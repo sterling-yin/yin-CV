@@ -78,17 +78,24 @@ st.write("""
 I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the *Ocean University of China* in 2017. I pursued further study at the *Zhejiang University* under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
 
 My research focuses on ***Impact Dynamics***, and I have authored/co-authored 16 papers from SCI journals such as *CCC*, *CCR*, *CS*, *ES*, *IJIE*, *IJMS*, *IJSS*, *EFM*, with two papers recognized as ESI Highly Cited Papers.
-                  """)
+
+银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的Cem. Concr. Compos.、Cem. Concr. Res.，结构工程领域的Compos. Struct.、Eng. Struct.，力学领域的Int. J. Mech. Sci.、Int. J. Solids Struct.、Eng. Fract. Mech.、Int. J. Impact Eng.等期刊发表高水平SCI论文16篇，其中2篇曾入选ESI高被引论文。    
+""")
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
 st.subheader("Research Interests")
 st.write(
     """
-- 📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]     
-- 📌 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]      
-- 📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc.]      
-- 📌 Advanced numerical approach [e.g., meshfree/particle method]     
+📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]        
+📌 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]        
+📌 Constitutive models of cementitious materials [e.g., KCC, CSC, and RHT, etc.]       
+📌 Advanced numerical approach [e.g., meshfree/particle method]      
+
+📌 工程材料的动态力学行为，如动态压缩、动态断裂、层裂等    
+📌 工程结构的动态力学响应，如低速冲击、爆炸、侵彻等      
+📌 水泥基材料本构关系，如KCC、CSC、RHT等        
+📌 先进高保真数值分析方法，如无网格法/粒子法
 """
 )
 
@@ -97,39 +104,13 @@ st.write('\n')
 st.subheader("Education & Work")
 st.write(
     """
-    - ⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li) 
-    - ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu)     
-    - ⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China         
-"""
-)
+⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li)      
+⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu)       
+⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China          
 
-# --- Biography ---
-st.write('\n')
-st.subheader("个人简介")
-st.write("""
-银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的Cem. Concr. Compos.、Cem. Concr. Res.，结构工程领域的Compos. Struct.、Eng. Struct.，力学领域的Int. J. Mech. Sci.、Int. J. Solids Struct.、Eng. Fract. Mech.、Int. J. Impact Eng.等期刊发表高水平SCI论文16篇，其中2篇曾入选ESI高被引论文。    
-                  """)
-
-# --- EXPERIENCE & QUALIFICATIONS ---
-st.write('\n')
-st.subheader("研究领域")
-st.write(
-    """
-- 📌 工程材料的动态力学行为，如动态压缩、动态断裂、层裂等    
-- 📌 工程结构的动态力学响应，如低速冲击、爆炸、侵彻等      
-- 📌 水泥基材料本构关系，如KCC、CSC、RHT等        
-- 📌 先进高保真数值分析方法，如无网格法/粒子法
-"""
-)
-
-# --- Education & Work ---
-st.write('\n')
-st.subheader("教育和工作经历")
-st.write(
-    """ 
-    - ⭐ 博士后、助理研究员，2023.10-，浙江大学，建筑工程学院，合作导师为国家杰青李庆华教授    
-    - ⭐ 博士研究生，2017.9-2023.9，浙江大学，结构工程专业，导师为中国科学院院士徐世烺教授    
-    - ⭐ 本科，2013.8-2017.6，中国海洋大学，土木工程专业    
+⭐ 博士后、助理研究员，2023.10-，浙江大学，建筑工程学院，合作导师为国家杰青李庆华教授    
+⭐ 博士研究生，2017.9-2023.9，浙江大学，结构工程专业，导师为中国科学院院士徐世烺教授    
+⭐ 本科，2013.8-2017.6，中国海洋大学，土木工程专业    
 """
 )
 
