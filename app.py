@@ -219,6 +219,6 @@ st.write(
 
 st.graphviz_chart('''
     digraph {
-        Shilang Xu -> Xing Yin
+        'Shilang Xu' -> 'Xing Yin'
     }
 ''', use_container_width = True)
