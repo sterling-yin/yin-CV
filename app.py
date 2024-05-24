@@ -215,3 +215,22 @@ st.write(
 - 📑 [001] Xu S\*, Zhou F, Li Q, Chen B, Jiang X, **Yin X**, et al. Comparative study on performance of UHTCC and RPC thick panels under hard projectile impact loading. *Cement and Concrete Composites*. 2021;122:104134.                        
 """
 )
+
+
+st.graphviz_chart('''
+    digraph {
+        run -> intr
+        intr -> runbl
+        runbl -> run
+        run -> kernel
+        kernel -> zombie
+        kernel -> sleep
+        kernel -> runmem
+        sleep -> swap
+        swap -> runswap
+        runswap -> new
+        runswap -> runmem
+        new -> runmem
+        sleep -> runmem
+    }
+''')
