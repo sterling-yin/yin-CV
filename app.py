@@ -215,28 +215,3 @@ st.write(
 - 📑 [001] Xu S\*, Zhou F, Li Q, Chen B, Jiang X, **Yin X**, et al. Comparative study on performance of UHTCC and RPC thick panels under hard projectile impact loading. *Cement and Concrete Composites*. 2021;122:104134.                        
 """
 )
-
-# --- Academic Lineage ---
-st.write('\n')
-st.subheader("Academic Lineage")
-st.graphviz_chart('''
-    digraph {
-        "BERTHOLLET, Claude-Louis" -> "GAY-LUSSAC, Joseph Louis"
-        "GAY-LUSSAC, Joseph Louis" -> "MAGNUS, Heinrich Gustav"
-        "MAGNUS, Heinrich Gustav" -> "WIEDEMANN, Gustav Heinrich"
-        "MOHR, Christian Otto" -> "FÖPPL, August Otto"
-        "WIEDEMANN, Gustav Heinrich" -> "FÖPPL, August Otto"
-        "FÖPPL, August" -> "PRANDTL, Ludwig"     
-        "FÖPPL, August" -> "WESTERGAARD, Harold Malcolm"     
-        "WESTERGAARD, Harold Malcolm" -> "XU, Zhilun" 
-        "XU, Zhilun" -> "ZHAO, Guofan"
-        "ZHAO, Guofan" -> "XU, Shilang" 
-        "XU, Shilang" -> "YIN, Xing"
-        "LI, Qinghua" -> "YIN, Xing"
-        "XU, Shilang" -> "LI, Qinghua"  
-        "XU, Shilang" -> "CHEN, Bokun"
-        "LI, Qinghua" -> "CHEN, Bokun"
-        "XU, Shilang" -> "WANG, Qingmin"
-        "LI, Qinghua" -> "WANG, Qingmin"
-    }
-''')
