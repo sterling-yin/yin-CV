@@ -216,13 +216,16 @@ st.write(
 """
 )
 
-# --- The Academic Family Tree ---
+# --- Academic Lineage ---
 st.write('\n')
-st.subheader("The Academic Family Tree")
+st.subheader("Academic Lineage")
 st.graphviz_chart('''
     digraph {
-        "MOHR, Christian Otto" -> "FÖPPL, August"
-        "WIEDEMANN, Gustav Heinrich" -> "FÖPPL, August"
+        "BERTHOLLET, Claude-Louis" -> "GAY-LUSSAC, Joseph Louis"
+        "GAY-LUSSAC, Joseph Louis" -> "MAGNUS, Heinrich Gustav"
+        "MAGNUS, Heinrich Gustav" -> "WIEDEMANN, Gustav Heinrich"
+        "MOHR, Christian Otto" -> "FÖPPL, August Otto"
+        "WIEDEMANN, Gustav Heinrich" -> "FÖPPL, August Otto"
         "FÖPPL, August" -> "PRANDTL, Ludwig"     
         "FÖPPL, August" -> "WESTERGAARD, Harold Malcolm"     
         "WESTERGAARD, Harold Malcolm" -> "XU, Zhilun" 
