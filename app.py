@@ -216,11 +216,23 @@ st.write(
 """
 )
 
-
+# --- The Academic Family Tree ---
+st.write('\n')
+st.subheader("The Academic Family Tree")
 st.graphviz_chart('''
     digraph {
-        "Shilang Xu" -> "Xing Yin"
-        "Qinghua Li" -> "Xing Yin"
-        "Shilang Xu" -> "Qinghua Li"
+        "MOHR, Christian Otto" -> "FÖPPL, August"
+        "WIEDEMANN, Gustav Heinrich" -> "FÖPPL, August"
+        "FÖPPL, August" -> "PRANDTL, Ludwig"     
+        "FÖPPL, August" -> "WESTERGAARD, Harold Malcolm"     
+        "WESTERGAARD, Harold Malcolm" -> "XU, Zhilun" 
+        "XU, Zhilun" -> "ZHAO, Guofan"
+        "ZHAO, Guofan" -> "XU, Shilang" 
+        "XU, Shilang" -> "YIN, Xing"
+        "LI, Qinghua" -> "YIN, Xing"
+        "XU, Shilang" -> "LI, Qinghua"  
+        "XU, Shilang" -> "CHEN, Bokun"
+        "LI, Qinghua" -> "CHEN, Bokun"
+        "XU, Shilang" -> "WANG, Qingmin"
     }
 ''')
