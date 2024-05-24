@@ -233,4 +233,4 @@ st.graphviz_chart('''
         new -> runmem
         sleep -> runmem
     }
-''')
+''', use_container_width = True)
