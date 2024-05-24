@@ -234,5 +234,6 @@ st.graphviz_chart('''
         "XU, Shilang" -> "CHEN, Bokun"
         "LI, Qinghua" -> "CHEN, Bokun"
         "XU, Shilang" -> "WANG, Qingmin"
+        "LI, Qinghua" -> "WANG, Qingmin"
     }
 ''')
