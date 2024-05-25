@@ -46,8 +46,6 @@ with open(css_file) as f:
 with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
-map = Image.open(map)
-
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
@@ -164,6 +162,7 @@ df.set_index('Year', inplace=True)
 st.bar_chart(df, y = "Publication")
 
 # ---  Geographic Citation Map ---
+map = Image.open(map)
 st.write('\n')
 st.subheader("Geographic Citation Map")
 st.image(map)
