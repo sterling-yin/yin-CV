@@ -47,7 +47,7 @@ with open(resume_file, "rb") as pdf_file:
     PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
 map = Image.open(map)
-
+lineage = Image.open(lineage)
 
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
