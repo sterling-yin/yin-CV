@@ -228,4 +228,4 @@ with open(lineage, "rb") as file:
             mime="image/png",
           )
 
-st.image(lineage)
+st.image(lineage,clamp = True)
