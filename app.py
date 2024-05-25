@@ -10,8 +10,9 @@ from PIL import Image
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
-profile_pic = current_dir / "assets" / "profile-pic.png"
+profile_pic = current_dir / "assets" / "profile-pic.jpg"
 map = current_dir / "assets" / "map.png"
+lineage = current_dir / "assets" / "lineage.png"
 
 
 # --- GENERAL SETTINGS ---
@@ -215,3 +216,8 @@ st.write(
 - 📑 [001] Xu S\*, Zhou F, Li Q, Chen B, Jiang X, **Yin X**, et al. Comparative study on performance of UHTCC and RPC thick panels under hard projectile impact loading. *Cement and Concrete Composites*. 2021;122:104134.                        
 """
 )
+
+# --- Academic Lineage ---
+st.write('\n')
+st.subheader("Academic Lineage")
+st.image(lineage)
