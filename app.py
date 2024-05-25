@@ -220,4 +220,8 @@ st.write(
 # --- Academic Lineage ---
 st.write('\n')
 st.subheader("Academic Lineage")
-st.image(map)
+st.download_button(
+    label=" 📃 Download Academic Lineage",
+    file_name=lineage.name,
+    mime="application/octet-stream",
+)
