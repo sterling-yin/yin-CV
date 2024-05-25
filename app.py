@@ -220,4 +220,4 @@ st.write(
 # --- Academic Lineage ---
 st.write('\n')
 st.subheader("Academic Lineage")
-st.image(lineage)
+st.image(map)
