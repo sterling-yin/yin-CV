@@ -220,9 +220,10 @@ st.write(
 # --- Academic Lineage ---
 st.write('\n')
 st.subheader("Academic Lineage")
-st.download_button(
-    label=" 🏛️ Download Academic Lineage",
-    data=file,
-    file_name=lineage,
-    mime="image/png",
-)
+with open("lineage.png", "rb") as file:
+    btn = st.download_button(
+            label="🏛️ Download Academic Lineage",
+            data=file,
+            file_name="lineage.png",
+            mime="image/png"
+          )
