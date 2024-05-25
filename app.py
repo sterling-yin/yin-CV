@@ -225,7 +225,7 @@ with open(lineage, "rb") as file:
             label="🏛️ Download Academic Lineage",
             data=file,
             file_name="lineage.png",
-            mime="image/png"
+            mime="image/png",
           )
 
- st.image(lineage)
+st.image(lineage)
