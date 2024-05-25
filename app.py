@@ -221,7 +221,8 @@ st.write(
 st.write('\n')
 st.subheader("Academic Lineage")
 st.download_button(
-    label=" 📃 Download Academic Lineage",
+    label=" 🏛️ Download Academic Lineage",
+    data=file,
     file_name=lineage,
-    mime="application/octet-stream",
+    mime="image/png",
 )
