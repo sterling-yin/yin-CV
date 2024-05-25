@@ -227,4 +227,5 @@ with open(lineage, "rb") as file:
             file_name="lineage.png",
             mime="image/png"
           )
+
  st.image(lineage)
