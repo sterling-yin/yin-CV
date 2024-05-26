@@ -70,7 +70,7 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-tab1, tab2 = st.tabs(["Introduction", "🗃 Data"])
+tab1, tab2 = st.tabs(["Biography", "Featured Publications"])
 
 with tab1:
 # --- Biography ---
@@ -85,9 +85,9 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 16
 """)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
-st.write('\n')
-st.subheader("Research Interests")
-st.write(
+   st.write('\n')
+   st.subheader("Research Interests")
+   st.write(
     """
 📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]        
 工程材料的动态力学行为，如动态压缩、动态断裂、层裂等    
@@ -104,9 +104,9 @@ st.write(
 )
 
 # --- Education & Work ---
-st.write('\n')
-st.subheader("Education & Work")
-st.write(
+   st.write('\n')
+   st.subheader("Education & Work")
+   st.write(
     """
 ⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li)      
 博士后、助理研究员，2023.10-，浙江大学，建筑工程学院，合作导师为国家杰青李庆华教授    
@@ -119,39 +119,41 @@ st.write(
 """
 )
 
-Publications1 = {
+with tab2:
+# --- Selected Publications ---
+
+   Publications1 = {
     "► An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings. Cement and Concrete Composites. 2023;137:104911.": "https://www.doi.org/10.1016/j.cemconcomp.2022.104911",
     "► Investigation of continuous surface cap model (CSCM) for numerical simulation of strain-hardening fibre-reinforced cementitious composites against low-velocity impacts. Composite Structures. 2023;304:116424.": "https://www.doi.org/10.1016/j.compstruct.2022.116424",
 }
 
-Publications2 = {
+   Publications2 = {
     "► Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. International Journal of Mechanical Sciences. 2024;264:108826.": "https://www.doi.org/10.1016/j.ijmecsci.2023.108826",
 }
 
-Publications3 = {
+   Publications3 = {
     "► The double-K fracture model: A state-of-the-art review. Engineering Fracture Mechanics. 2023;277:108988.": "https://www.doi.org/10.1016/j.engfracmech.2022.108988",
 }
 
-Publications4 = {
+   Publications4 = {
     "► Experimental and numerical investigations on the stress waves propagation in strain-hardening fiber-reinforced cementitious composites: Stochastic analysis using polynomial chaos expansions. Journal of Building Engineering. 2023;74:106902.": "https://www.doi.org/10.1016/j.jobe.2023.106902",
 }
 
-# --- Selected Publications ---
-st.write('\n')
-st.subheader("Selected Publications")
-st.write("🌌", "***Concrete Constitutive Models***")
-for article, link in Publications1.items():
-    st.write(f"[{article}]({link})")
-st.write("🌌", "***Dynamic Behaviour of Advanced Materials***")
-for article, link in Publications2.items():
-    st.write(f"[{article}]({link})")
-st.write("🌌", "***Stress Wave Propagation***")
-for article, link in Publications4.items():
-    st.write(f"[{article}]({link})")
-st.write("🌌", "***Concrete Fracture Mechanics***")
-for article, link in Publications3.items():
-    st.write(f"[{article}]({link})")
-st.write("---")
+   st.write('\n')
+   st.subheader("Selected Publications")
+   st.write("🌌", "***Concrete Constitutive Models***")
+   for article, link in Publications1.items():
+       st.write(f"[{article}]({link})")
+   st.write("🌌", "***Dynamic Behaviour of Advanced Materials***")
+   for article, link in Publications2.items():
+       st.write(f"[{article}]({link})")
+   st.write("🌌", "***Stress Wave Propagation***")
+   for article, link in Publications4.items():
+       st.write(f"[{article}]({link})")
+   st.write("🌌", "***Concrete Fracture Mechanics***")
+   for article, link in Publications3.items():
+       st.write(f"[{article}]({link})")
+   st.write("---")
 
 # --- Publication trend ---
 st.write('\n')
