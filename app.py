@@ -70,7 +70,7 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-tab1, tab2, tab3 = st.tabs(["Biography", "Featured Publications", "Complete Publications List"])
+tab1, tab2, tab3, tab4 = st.tabs(["Biography", "Featured Publications", "Complete Publications List", "Academic Lineage"])
 
 with tab1:
 # --- Biography ---
@@ -119,6 +119,23 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 16
 """
 )
 
+# --- Publication trend ---
+   st.write('\n')
+   st.subheader("Publication Trend")
+   data = {
+       'Year': [2021, 2022, 2023, 2024],
+       'Publication': [3, 4, 7, 3]
+   }
+   df = pd.DataFrame(data)
+   df.set_index('Year', inplace=True)
+   st.bar_chart(df, y = "Publication")
+
+# ---  Geographic Citation Map ---
+   map = Image.open(map)
+   st.write('\n')
+   st.subheader("Geographic Citation Map")
+   st.image(map)
+
 with tab2:
 # --- Selected Publications ---
 
@@ -155,25 +172,7 @@ with tab2:
        st.write(f"[{article}]({link})")
    st.write("---")
 
-
 with tab3:
-# --- Publication trend ---
-   st.write('\n')
-   st.subheader("Publication Trend")
-   data = {
-       'Year': [2021, 2022, 2023, 2024],
-       'Publication': [3, 4, 7, 3]
-   }
-   df = pd.DataFrame(data)
-   df.set_index('Year', inplace=True)
-   st.bar_chart(df, y = "Publication")
-
-# ---  Geographic Citation Map ---
-   map = Image.open(map)
-   st.write('\n')
-   st.subheader("Geographic Citation Map")
-   st.image(map)
-
 # --- Complete List of Publications ---
    st.write('\n')
    st.subheader("Complete List of Publications")
@@ -223,9 +222,10 @@ with tab3:
 """
    )
 
+with tab4:
 # --- Academic Lineage ---
-lineage = Image.open(lineage)
-st.write('\n')
-st.subheader("Academic Lineage")
-st.image(lineage, channels="BGR")
+   lineage = Image.open(lineage)
+   st.write('\n')
+   st.subheader("Academic Lineage")
+   st.image(lineage, channels="BGR")
 
