@@ -421,3 +421,10 @@ $#            k6              k7              k8              k9             k10
 &k6             &k7             &k8             &k9             &k10            
 *END
 ''')
+
+   expander = st.expander("See explanation")
+   expander.write('''
+    The chart above shows some numbers I picked for you.
+    I rolled actual dice for these, so they're *guaranteed* to
+    be random.
+''')
