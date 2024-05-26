@@ -29,6 +29,7 @@ Postdoctoral Fellow at ***Zhejiang University***
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
 """
 EMAIL = "yinxing@zju.edu.cn"
+WeChat = "Sterling_YIN"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -47,6 +48,7 @@ with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
     st.write("📧", EMAIL)
+    st.write("💬", WeChat)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["🌟Introduction", "🎖️Featured Publications", "📑Publications List", "🏛️Academic Lineage", "🗄️Codes"])
 
