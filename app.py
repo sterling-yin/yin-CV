@@ -224,7 +224,7 @@ X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case conc
     """
     )
 
-   kcc = st.text("""
+   kcc = st.text_area("""
 *KEYWORD
 *COMMENT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
