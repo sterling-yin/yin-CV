@@ -29,7 +29,7 @@ Postdoctoral Fellow at ***Zhejiang University***
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
 """
 EMAIL = "yinxing@zju.edu.cn"
-WeChat = "Sterling_YIN"
+WeChat = "WeChat: Sterling_YIN"
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
