@@ -70,7 +70,7 @@ cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     cols[index].write(f"[{platform}]({link})")
 
-tab1, tab2 = st.tabs(["Biography", "Featured Publications"])
+tab1, tab2, tab3 = st.tabs(["Biography", "Featured Publications", "Complete Publications List"])
 
 with tab1:
 # --- Biography ---
@@ -155,40 +155,42 @@ with tab2:
        st.write(f"[{article}]({link})")
    st.write("---")
 
+
+with tab3:
 # --- Publication trend ---
-st.write('\n')
-st.subheader("Publication Trend")
-data = {
-    'Year': [2021, 2022, 2023, 2024],
-    'Publication': [3, 4, 7, 3]
-}
-df = pd.DataFrame(data)
-df.set_index('Year', inplace=True)
-st.bar_chart(df, y = "Publication")
+   st.write('\n')
+   st.subheader("Publication Trend")
+   data = {
+       'Year': [2021, 2022, 2023, 2024],
+       'Publication': [3, 4, 7, 3]
+   }
+   df = pd.DataFrame(data)
+   df.set_index('Year', inplace=True)
+   st.bar_chart(df, y = "Publication")
 
 # ---  Geographic Citation Map ---
-map = Image.open(map)
-st.write('\n')
-st.subheader("Geographic Citation Map")
-st.image(map)
+   map = Image.open(map)
+   st.write('\n')
+   st.subheader("Geographic Citation Map")
+   st.image(map)
 
 # --- Complete List of Publications ---
-st.write('\n')
-st.subheader("Complete List of Publications")
+   st.write('\n')
+   st.subheader("Complete List of Publications")
 
 # --- 2024
-st.write("🏗️", "**2024 | Zhejiang University | 浙江大学**")
-st.write(
+   st.write("🏗️", "**2024 | Zhejiang University | 浙江大学**")
+   st.write(
     """
 - 📑 [017] Wang Q, Li Q\*, **Yin X**, Xu S. Structural size effect in the mode I and mixed mode I/II fracture of strain-hardening cementitious composites (SHCC). *International Journal of Solids and Structures*. 2024;288:112628.                        
 - 📑 [016] Li Q\*, Luo A, Hong C, Wang G, **Yin X**, Xu S. Fatigue behavior of short-headed studs embedded in Ultra-high Toughness Cementitious Composites (UHTCC). *Engineering Structures*. 2024;300:117194.                        
 - 📑 [015] **Yin X**, Li Q\*, Wang Q, Chen B, Shu C, Xu S. Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. *International Journal of Mechanical Sciences*. 2024;264:108826.                        
 """
-)
+   )
 
 # --- 2023
-st.write("✨", "**2023 | Zhejiang University | 浙江大学**")
-st.write(
+   st.write("✨", "**2023 | Zhejiang University | 浙江大学**")
+   st.write(
     """
 - 📑 [014] **Yin X**, Li Q\*, Wang Q, Chen B, Xu S. Experimental and numerical investigations on the stress waves propagation in strain-hardening fiber-reinforced cementitious composites: Stochastic analysis using polynomial chaos expansions. *Journal of Building Engineering*. 2023;74:106902.                        
 - 📑 [013] Jiang X, Li Q\*, **Yin X**, Xu S. Investigation on triaxial compressive mechanical properties of ultra high toughness cementitious composites with high strain capacity. *Cement and Concrete Research*. 2023;170:107185.                        
@@ -198,28 +200,28 @@ st.write(
 - 📑 [009] **Yin X**, Li Q\*, Wang Q, Reinhardt H-W, Xu S. The double-K fracture model: A state-of-the-art review. *Engineering Fracture Mechanics*. 2023;277:108988.                        
 - 📑 [008] **Yin X**, Li Q\*, Xu X, Chen B, Guo K, Xu S. Investigation of continuous surface cap model (CSCM) for numerical simulation of strain-hardening fibre-reinforced cementitious composites against low-velocity impacts. *Composite Structures*. 2023;304:116424.                        
 """
-)
+   )
 
 # --- 2022
-st.write("✨", "**2022 | Zhejiang University | 浙江大学**")
-st.write(
+   st.write("✨", "**2022 | Zhejiang University | 浙江大学**")
+   st.write(
     """
 - 📑 [007] 李庆华, **银星**, 郭康安, 徐世烺\*. 超高韧性水泥基复合材料与活性粉末混凝土界面剪切强度试验研究. *工程力学*. 2022;39(08):232-244.                        
 - 📑 [006] Li Q, **Yin X**, Huang B\*, Zhang Y, Xu S. Strengthening of the concrete face slabs of dams using sprayable strain-hardening fiber-reinforced cementitious composites. *Frontiers of Structural and Civil Engineering*. 2022;16(2):145-60.                        
 - 📑 [005] Xu S, Chen B, Li Q*, Zhou F, **Yin X**, Jiang X, et al. Experimental and numerical investigations on ultra-high toughness cementitious composite slabs subjected to close-in blast loadings. *Cement and Concrete Composites*. 2022;126:104339.                        
 - 📑 [004] Li Q, Chen B, Xu S*, Zhou F, **Yin X**, Jiang X, et al. Experiment and numerical investigations of ultra-high toughness cementitious composite slabs under contact explosions. *International Journal of Impact Engineering*. 2022;159:104033.                        
 """
-)
+   )
 
 # --- 2021
-st.write("✨", "**2021 | Zhejiang University | 浙江大学**")
-st.write(
+   st.write("✨", "**2021 | Zhejiang University | 浙江大学**")
+   st.write(
     """
 - 📑 [003] Xu S, Guo K, Li Q\*, **Yin X**, Huang B. Shear fracture performance of the interface between ultra-high toughness cementitious composites and reactive powder concrete. *Composite Structures*. 2021;275:114403.                        
 - 📑 [002] Li Q-H, **Yin X**, Huang B-T\*, Luo A-M, Lyu Y, Sun C-J, et al. Shear interfacial fracture of strain-hardening fiber-reinforced cementitious composites and concrete: A novel approach. *Engineering Fracture Mechanics*. 2021;253:107849.                        
 - 📑 [001] Xu S\*, Zhou F, Li Q, Chen B, Jiang X, **Yin X**, et al. Comparative study on performance of UHTCC and RPC thick panels under hard projectile impact loading. *Cement and Concrete Composites*. 2021;122:104134.                        
 """
-)
+   )
 
 # --- Academic Lineage ---
 lineage = Image.open(lineage)
