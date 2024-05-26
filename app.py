@@ -72,6 +72,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 tab1, tab2 = st.tabs(["Introduction", "🗃 Data"])
 
+with tab1:
 # --- Biography ---
 st.write('\n')
 st.subheader("Biography")
