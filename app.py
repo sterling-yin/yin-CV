@@ -421,4 +421,4 @@ $     BulkUnld06      BulkUnld07      BulkUnld08      BulkUnld09      BulkUnld10
 $#            k6              k7              k8              k9             k10
 &k6             &k7             &k8             &k9             &k10            
 *END'''
-   st.code(code, language=None, line_numbers=True)
+   st.code(code, line_numbers=True)
