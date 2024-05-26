@@ -224,7 +224,7 @@ X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case conc
     """
     )
 
-   kcc = st.text(''' 
+   kcc = st.text("""
 *KEYWORD
 *COMMENT
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -421,7 +421,7 @@ $     BulkUnld06      BulkUnld07      BulkUnld08      BulkUnld09      BulkUnld10
 $#            k6              k7              k8              k9             k10
 &k6             &k7             &k8             &k9             &k10            
 *END
-''')
+""")
 
 st.code(f"""
 import streamlit as st
