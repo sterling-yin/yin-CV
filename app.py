@@ -137,9 +137,7 @@ with tab2:
 }
 
    st.write('\n')
-   st.subheader("Selected Publications")
-
-   st.subheader("🌌", "***Concrete Constitutive Models***")
+   st.subheader('🌌 Concrete Constitutive Models', divider='rainbow')
    for article, link in Publications1.items():
        st.write(f"[{article}]({link})")
 
