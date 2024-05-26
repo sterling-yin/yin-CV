@@ -204,8 +204,6 @@ with tab3:
 with tab4:
 # --- Academic Lineage ---
    lineage = Image.open(lineage)
-   st.write('\n')
-   st.subheader("Academic Lineage")
    st.image(lineage, channels="BGR")
 
 with tab5:
