@@ -29,13 +29,6 @@ Postdoctoral Fellow at ***Zhejiang University***
 > *Looking for a Postdoctoral / Visiting Scholar Position ...*
 """
 EMAIL = "yinxing@zju.edu.cn"
-SOCIAL_MEDIA = {
-    "ZJU Homepage": "https://person.zju.edu.cn/yinxing",
-    "ResearchGate": "https://www.researchgate.net/profile/Xing-Yin-yinxing",
-    "GitHub": "https://sterling-yin.github.io/",
-    "ORCID": "https://orcid.org/0000-0001-9547-2681",
-}
-
 
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -63,14 +56,7 @@ with col2:
     )
     st.write("📧", EMAIL)
 
-
-# --- SOCIAL LINKS ---
-st.write('\n')
-cols = st.columns(len(SOCIAL_MEDIA))
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
-
-tab1, tab2, tab3, tab4 = st.tabs(["Biography", "Featured Publications", "Complete Publications List", "Academic Lineage"])
+tab1, tab2, tab3, tab4 = st.tabs(["Introduction", "Featured Publications", "Complete Publications List", "Academic Lineage"])
 
 with tab1:
 # --- Biography ---
