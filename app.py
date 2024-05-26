@@ -141,15 +141,15 @@ with tab2:
    for article, link in Publications1.items():
        st.write(f"[{article}]({link})")
 
-   st.write("🌌", "***Dynamic Behaviour of Advanced Materials***")
+   st.subheader('🌌 Dynamic Behaviour of Advanced Materials')
    for article, link in Publications2.items():
        st.write(f"[{article}]({link})")
 
-   st.write("🌌", "***Stress Wave Propagation***")
+   st.subheader('🌌 Stress Wave Propagation')
    for article, link in Publications4.items():
        st.write(f"[{article}]({link})")
 
-   st.write("🌌", "***Concrete Fracture Mechanics***")
+   st.subheader('🌌 Concrete Fracture Mechanics')
    for article, link in Publications3.items():
        st.write(f"[{article}]({link})")
 
