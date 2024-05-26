@@ -213,16 +213,8 @@ with tab4:
 with tab5:
 # --- Codes ---
    st.write('\n')
-   st.subheader("Calibration of KCC Model for ECC/SHCC")
-   st.write(
-    """
-The ultra-high tensile capacity of strain-hardening fibre-reinforced cementitious composites makes them promising for impact dynamics applications, however, there is a lack of reference for taking the parameters of the constitutive model of materials in numerical simulations. In this study, the Karagozian & Case concrete/cementitious model parameters for strain-hardening fibre-reinforced cementitious composites were comprehensively and systematically calibrated. Multiaxial behaviour, crack-bridging constitutive relations, strain-rate effects, regularization of damage evolution parameters, and parameters scaling method for wide-range strength of materials were all considered and carefully discussed. The calibrated parameters were validated using low-velocity drop-weight impact tests, near-field explosion tests, and high-speed penetration tests. In this study, the traditional element erosion method and meshless/particle methods of Smoothed Particle Galerkin (SPG) method were used for failure analysis in penetration and explosion models. The results show that the calibrated parameters accurately predict the cratering and scabbing diameters and failure modes of explosion tests with the element erosion method. Furthermore, the residual velocity of the projectile and crack patterns of targets were also predicted with good precision with both element erosion and SPG methods. However, in the simulations of low-velocity impact tests, the predictions of maximum deflection were acceptable, and the errors in residual deflection were significant due to the inherent weakness of the material constitutive model.
-
-Please Cite: **Yin et al. (2023)**
-    """
-    )
+   st.subheader("KCC Model for ECC/SHCC")
    st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
-
    st.text('''
 *KEYWORD
 *COMMENT
@@ -422,9 +414,7 @@ $#            k6              k7              k8              k9             k10
 *END
 ''')
 
-   expander = st.expander("See explanation")
+   expander = st.expander("KCC Model Parameters for ECC/SHCC/UHTCC")
    expander.write('''
-    The chart above shows some numbers I picked for you.
-    I rolled actual dice for these, so they're *guaranteed* to
-    be random.
+The ultra-high tensile capacity of strain-hardening fibre-reinforced cementitious composites makes them promising for impact dynamics applications, however, there is a lack of reference for taking the parameters of the constitutive model of materials in numerical simulations. In this study, the Karagozian & Case concrete/cementitious model parameters for strain-hardening fibre-reinforced cementitious composites were comprehensively and systematically calibrated. Multiaxial behaviour, crack-bridging constitutive relations, strain-rate effects, regularization of damage evolution parameters, and parameters scaling method for wide-range strength of materials were all considered and carefully discussed. The calibrated parameters were validated using low-velocity drop-weight impact tests, near-field explosion tests, and high-speed penetration tests. In this study, the traditional element erosion method and meshless/particle methods of Smoothed Particle Galerkin (SPG) method were used for failure analysis in penetration and explosion models. The results show that the calibrated parameters accurately predict the cratering and scabbing diameters and failure modes of explosion tests with the element erosion method. Furthermore, the residual velocity of the projectile and crack patterns of targets were also predicted with good precision with both element erosion and SPG methods. However, in the simulations of low-velocity impact tests, the predictions of maximum deflection were acceptable, and the errors in residual deflection were significant due to the inherent weakness of the material constitutive model.
 ''')
