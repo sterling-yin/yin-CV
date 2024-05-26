@@ -73,7 +73,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 tab1, tab2 = st.tabs(["Introduction", "🗃 Data"])
 
 # --- Biography ---
-tab1.st.write('\n')
+st.write('\n')
 tab1.st.subheader("Biography")
 tab1.st.write("""
 I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the *Ocean University of China* in 2017. I pursued further study at the *Zhejiang University* under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
