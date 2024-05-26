@@ -155,11 +155,9 @@ with tab2:
 
 with tab3:
 # --- Complete List of Publications ---
-   st.write('\n')
-   st.subheader("Complete List of Publications")
 
 # --- 2024
-   st.write("🏗️", "**2024 | Zhejiang University | 浙江大学**")
+   st.subheader('🏗️ 2024 | Zhejiang University | 浙江大学')
    st.write(
     """
 - 📑 [017] Wang Q, Li Q\*, **Yin X**, Xu S. Structural size effect in the mode I and mixed mode I/II fracture of strain-hardening cementitious composites (SHCC). *International Journal of Solids and Structures*. 2024;288:112628.                        
