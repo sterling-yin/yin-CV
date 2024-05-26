@@ -138,23 +138,22 @@ with tab2:
 
    st.write('\n')
    st.subheader("Selected Publications")
-   st.divider()
+
    st.write("🌌", "***Concrete Constitutive Models***")
    for article, link in Publications1.items():
        st.write(f"[{article}]({link})")
-   st.write("---")
+
    st.write("🌌", "***Dynamic Behaviour of Advanced Materials***")
    for article, link in Publications2.items():
        st.write(f"[{article}]({link})")
-   st.write("---")
+
    st.write("🌌", "***Stress Wave Propagation***")
    for article, link in Publications4.items():
        st.write(f"[{article}]({link})")
-   st.write("---")
+
    st.write("🌌", "***Concrete Fracture Mechanics***")
    for article, link in Publications3.items():
        st.write(f"[{article}]({link})")
-   st.write("---")
 
 with tab3:
 # --- Complete List of Publications ---
