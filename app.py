@@ -26,7 +26,7 @@ Postdoctoral Fellow at ***Zhejiang University***
 **Member of Academician Shilang Xu's Lab**             
 浙江大学高性能结构研究所徐世烺院士团队成员
 
-> *Looking for a Postdoctoral / Visiting Scholar Position ...*
+> *Looking for a Visiting Scholar Position ...*
 """
 EMAIL = "yinxing@zju.edu.cn"
 WeChat = "WeChat: Sterling_YIN"
