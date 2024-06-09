@@ -9,7 +9,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
-resume_file = current_dir / "assets" / "CV.pdf"
+resume_file = current_dir / "assets" / "CV-YINXING.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.jpg"
 map = current_dir / "assets" / "map.png"
 lineage = current_dir / "assets" / "lineage.png"
@@ -35,6 +35,8 @@ st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 # --- LOAD CSS, PDF & PROFIL PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
+with open(resume_file, 'rb') as pdf_file:
+    PDFbyte = pdf_file.read()
 profile_pic = Image.open(profile_pic)
 
 # --- HERO SECTION ---
@@ -47,12 +49,20 @@ with col2:
     st.write(DESCRIPTION)
 
 st.write("""> *Looking for a Postdoctoral / Visiting Scholar Position ...*""")
-col3, col4 = st.columns(2, gap="small")
+col3, col4, col5 = st.columns(3, gap="small")
 with col3:
     st.write("📧", EMAIL)
 
 with col4:
     st.write("💬", WeChat)
+
+with col5:
+    st.download_button(
+        label='📄 Download Resume',
+        data=PDFbyte,
+        file_name=resume_file.name,
+        mime='application/octet-stream',
+    )
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["🌟Introduction", "🎖️Featured Publications", "📑Publications List", "🏛️Academic Lineage", "🗄️Codes"])
 
