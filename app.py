@@ -50,19 +50,20 @@ with col2:
 
 st.write("""> *Looking for a Postdoctoral / Visiting Scholar Position ...*""")
 col3, col4, col5 = st.columns(3, gap="small")
+
 with col3:
-    st.write("📧", EMAIL)
-
-with col4:
-    st.write("💬", WeChat)
-
-with col5:
     st.download_button(
         label='📄 Download Resume',
         data=PDFbyte,
         file_name=resume_file.name,
         mime='application/octet-stream',
     )
+
+with col4:
+    st.write("📧", EMAIL)
+
+with col5:
+    st.write("💬", WeChat)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["🌟Introduction", "🎖️Featured Publications", "📑Publications List", "🏛️Academic Lineage", "🗄️Codes"])
 
