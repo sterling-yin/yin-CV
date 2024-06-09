@@ -18,7 +18,7 @@ lineage = current_dir / "assets" / "lineage.png"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "CV | Xing YIN, PhD"
 PAGE_ICON = ":star:"
-NAME = "Xing YIN  银星"
+NAME = "Xing YIN, PhD  银星"
 DESCRIPTION = """
 Doctor of Philosophy  工学博士     
 Postdoctoral Fellow at ***Zhejiang University***      
