@@ -47,7 +47,13 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
+
+st.write("""> *Looking for a Postdoctoral / Visiting Scholar Position ...*""")
+col3, col4 = st.columns(2, gap="small")
+with col3:
     st.write("📧", EMAIL)
+
+with col4:
     st.write("💬", WeChat)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["🌟Introduction", "🎖️Featured Publications", "📑Publications List", "🏛️Academic Lineage", "🗄️Codes"])
