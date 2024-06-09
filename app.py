@@ -25,8 +25,6 @@ Postdoctoral Fellow at ***Zhejiang University***
 浙江大学建筑工程学院博士后、助理研究员          
 **Member of Academician Shilang Xu's Lab**             
 浙江大学高性能结构研究所徐世烺院士团队成员
-
-> *Looking for a Visiting Scholar Position ...*
 """
 EMAIL = "yinxing@zju.edu.cn"
 WeChat = "WeChat: Sterling_YIN"
@@ -42,7 +40,7 @@ profile_pic = Image.open(profile_pic)
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.image(profile_pic, width=320)
+    st.image(profile_pic, width=200)
 
 with col2:
     st.title(NAME)
