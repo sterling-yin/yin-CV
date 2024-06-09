@@ -40,11 +40,12 @@ profile_pic = Image.open(profile_pic)
 # --- HERO SECTION ---
 col1, col2 = st.columns(2, gap="small")
 with col1:
-    st.image(profile_pic, width=200)
-
-with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
+
+with col2:
+    st.image(profile_pic, width=200)
+
 
 st.write("""> *Looking for a Postdoctoral / Visiting Scholar Position ...*""")
 col3, col4 = st.columns(2, gap="small")
