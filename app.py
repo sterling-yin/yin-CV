@@ -82,6 +82,12 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
 银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的*Cem. Concr. Compos.*(4)、*Cem. Concr. Res.*(1)，结构工程领域的*Compos. Struct.*(1)、*Eng. Struct.*(1)，力学领域的*Int. J. Mech. Sci.*(1)、*Int. J. Solids Struct.*(1)、*Eng. Fract. Mech.*(3)、*Int. J. Impact Eng.*(2)等期刊发表高水平SCI论文17篇，其中2篇曾入选ESI高被引论文。    
 </div>  
             """)
+   st.write("""  
+<div style="text-align: justify">  
+    Your justified text goes here.  
+</div>  
+""", unsafe_allow_html=True)  
+
 
 # --- EXPERIENCE & QUALIFICATIONS ---
    st.write('\n')
