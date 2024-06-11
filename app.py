@@ -44,10 +44,12 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
-    st.write("""
-    📧 EMAIL: yinxing@zju.edu.cn        
-    💬 Weixin(WeChat): Sterling_YIN
-    """)
+
+
+st.write("""> *Looking for a Visiting Scholar Position ...*""")
+col3, col4, col5 = st.columns(3, gap="small")
+
+with col3:
     st.download_button(
         label='📄 Download Resume',
         data=PDFbyte,
@@ -55,7 +57,15 @@ with col2:
         mime='application/octet-stream',
     )
 
-st.write("""> *Looking for a Visiting Scholar Position ...*""")
+with col4:
+    st.write("""
+    📧 EMAIL: yinxing@zju.edu.cn        
+    """)
+
+with col5:
+    st.write("""
+    💬 Weixin(WeChat): Sterling_YIN
+    """)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["🌟Introduction", "🎖️Featured Publications", "📑Publications List", "🏛️Academic Lineage", "🗄️Codes"])
 
