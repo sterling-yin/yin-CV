@@ -24,8 +24,8 @@ Doctor of Philosophy  工学博士
 Postdoctoral Fellow at ***Zhejiang University***      
 浙江大学建筑工程学院博士后、助理研究员          
 **Member of Academician Shilang Xu's Lab**             
-浙江大学高性能结构研究所徐世烺院士团队成员
-📧 EMAIL: yinxing@zju.edu.cn
+浙江大学高性能结构研究所徐世烺院士团队成员       
+📧 EMAIL: yinxing@zju.edu.cn        
 💬 WeChat: Sterling_YIN
 """
 EMAIL = "yinxing@zju.edu.cn"
@@ -46,8 +46,6 @@ col1, col2 = st.columns([0.65,0.35], gap="small")
 with col1:
     st.title(NAME)
     st.write(DESCRIPTION)
-    st.write("📧", EMAIL)
-    st.write("💬", WeChat)
 
 with col2:
     st.image(profile_pic, width=200)
