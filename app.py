@@ -45,7 +45,7 @@ with col1:
     st.write(DESCRIPTION)
 
 with col2:
-    st.image(profile_pic, width=200)
+    st.image(profile_pic, width=230)
     st.download_button(
         label='📄 Download Resume',
         data=PDFbyte,
