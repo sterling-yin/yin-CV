@@ -75,11 +75,16 @@ with tab1:
    st.subheader("Biography")
    st.write("""  
 <div style="text-align: justify">  
-I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the *Ocean University of China* in 2017. I pursued further study at the *Zhejiang University* under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
+I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the *Ocean University of China* in 2017. 
+I pursued further study at the *Zhejiang University* under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
 
-My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17 papers from SCI journals such as *Cem. Concr. Compos.*(4), *Cem. Concr. Res.*(1), *Compos. Struct.*(1), *Eng. Struct.*(1), *Int. J. Impact Eng.*(2), *Int. J. Mech. Sci.*(1), *Int. J. Solids Struct.*(1), *Eng. Fract. Mech.*(3), with two papers recognized as ESI Highly Cited Papers.
+My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17 papers from SCI journals such as *Cem. Concr. Compos.*(4), 
+*Cem. Concr. Res.*(1), *Compos. Struct.*(1), *Eng. Struct.*(1), *Int. J. Impact Eng.*(2), *Int. J. Mech. Sci.*(1), *Eng. Fract. Mech.*(3), 
+*Int. J. Solids Struct.*(1), with two papers recognized as ESI Highly Cited Papers.
 
-银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的*Cem. Concr. Compos.*(4)、*Cem. Concr. Res.*(1)，结构工程领域的*Compos. Struct.*(1)、*Eng. Struct.*(1)，力学领域的*Int. J. Mech. Sci.*(1)、*Int. J. Solids Struct.*(1)、*Eng. Fract. Mech.*(3)、*Int. J. Impact Eng.*(2)等期刊发表高水平SCI论文17篇，其中2篇曾入选ESI高被引论文。    
+银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的*Cem. Concr. Compos.*(4)、*Cem. Concr. Res.*(1)，
+结构工程领域的*Compos. Struct.*(1)、*Eng. Struct.*(1)，固体力学领域的*Int. J. Mech. Sci.*(1)、*Int. J. Solids Struct.*(1)，
+冲击动力学领域的*Int. J. Impact Eng.*(2)，断裂力学领域的*Eng. Fract. Mech.*(3)等期刊发表高水平SCI论文17篇，其中2篇曾入选ESI高被引论文。    
 </div>  
 """, unsafe_allow_html=True)  
 
