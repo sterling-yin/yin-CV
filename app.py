@@ -89,8 +89,7 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
    st.subheader("Research Interests")
    st.write(
     """
-<div style="text-align: justify">  
-📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]        
+📌 Dynamic mechanics behaviours of engineering materials [e.g., dynamic compression, dynamic fracture, and spallation, etc.]         
 工程材料的动态力学行为，如动态压缩、动态断裂、层裂等    
 
 📌 Dynamic response of engineering structures [e.g., low-velocity impact, explosion, and penetration, etc.]        
@@ -101,16 +100,14 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
 
 📌 Advanced numerical approach [e.g., meshfree/particle method]      
 先进高保真数值分析方法，如无网格法/粒子法
-</div>  
-""", unsafe_allow_html=True) 
+""") 
 
 # --- Education & Work ---
    st.write('\n')
    st.subheader("Education & Work")
    st.write(
     """
-<div style="text-align: justify">  
-⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li)      
+⭐ Postdoctoral Fellow, 2023.10-, College of Civil Engineering and Architecture, ***Zhejiang University*** (Supervisor: Prof. Qinghua Li)         
 博士后、助理研究员，2023.10-，浙江大学，建筑工程学院，合作导师为国家杰青李庆华教授    
 
 ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu)       
@@ -118,8 +115,7 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
 
 ⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China          
 本科，2013.8-2017.6，中国海洋大学，土木工程专业    
-</div>  
-""", unsafe_allow_html=True) 
+""") 
 
 # --- Publication trend ---
    st.write('\n')
