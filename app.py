@@ -74,9 +74,9 @@ with tab1:
    st.write("""
 I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the *Ocean University of China* in 2017. I pursued further study at the *Zhejiang University* under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
 
-My research focuses on ***Impact Dynamics***, and I have authored/co-authored 16 papers from SCI journals such as *Cem. Concr. Compos.*(4), *Cem. Concr. Res.*(1), *Compos. Struct.*(1), *Eng. Struct.*(1), *Int. J. Impact Eng.*(1), *Int. J. Mech. Sci.*(1), *Int. J. Solids Struct.*(1), *Eng. Fract. Mech.*(3), with two papers recognized as ESI Highly Cited Papers.
+My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17 papers from SCI journals such as *Cem. Concr. Compos.*(4), *Cem. Concr. Res.*(1), *Compos. Struct.*(1), *Eng. Struct.*(1), *Int. J. Impact Eng.*(2), *Int. J. Mech. Sci.*(1), *Int. J. Solids Struct.*(1), *Eng. Fract. Mech.*(3), with two papers recognized as ESI Highly Cited Papers.
 
-银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的*Cem. Concr. Compos.*(4)、*Cem. Concr. Res.*(1)，结构工程领域的*Compos. Struct.*(1)、*Eng. Struct.*(1)，力学领域的*Int. J. Mech. Sci.*(1)、*Int. J. Solids Struct.*(1)、*Eng. Fract. Mech.*(3)、*Int. J. Impact Eng.*(1)等期刊发表高水平SCI论文16篇，其中2篇曾入选ESI高被引论文。    
+银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的*Cem. Concr. Compos.*(4)、*Cem. Concr. Res.*(1)，结构工程领域的*Compos. Struct.*(1)、*Eng. Struct.*(1)，力学领域的*Int. J. Mech. Sci.*(1)、*Int. J. Solids Struct.*(1)、*Eng. Fract. Mech.*(3)、*Int. J. Impact Eng.*(2)等期刊发表高水平SCI论文17篇，其中2篇曾入选ESI高被引论文。    
 """)
 
 # --- EXPERIENCE & QUALIFICATIONS ---
@@ -175,6 +175,7 @@ with tab3:
    st.subheader('🏗️ 2024 | Zhejiang University')
    st.write(
     """
+- 📑 [018] **Yin X**, Li Q\*, Wang Q, Chen B, Xu S. Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. *International Journal of Impact Engineering*. 2024;XXX:105028. (Just Accepted)                        
 - 📑 [017] Wang Q, Li Q\*, **Yin X**, Xu S. Structural size effect in the mode I and mixed mode I/II fracture of strain-hardening cementitious composites (SHCC). *International Journal of Solids and Structures*. 2024;288:112628.                        
 - 📑 [016] Li Q\*, Luo A, Hong C, Wang G, **Yin X**, Xu S. Fatigue behavior of short-headed studs embedded in Ultra-high Toughness Cementitious Composites (UHTCC). *Engineering Structures*. 2024;300:117194.                        
 - 📑 [015] **Yin X**, Li Q\*, Wang Q, Chen B, Shu C, Xu S. Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. *International Journal of Mechanical Sciences*. 2024;264:108826.                        
