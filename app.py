@@ -43,7 +43,7 @@ with col1:
     st.write(DESCRIPTION)
     st.write("""
     📧 EMAIL: yinxing@zju.edu.cn        
-    💬 WeChat: Sterling_YIN
+    💬 Weixin(WeChat): Sterling_YIN
     """)
 
 with col2:
