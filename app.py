@@ -64,7 +64,7 @@ with col4:
 
 with col5:
     st.write("""
-    💬 Weixin(WeChat): Sterling_YIN
+    💬 WeChat: Sterling_YIN
     """)
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["🌟Introduction", "🎖️Featured Publications", "📑Publications List", "🏛️Academic Lineage", "🗄️Codes"])
