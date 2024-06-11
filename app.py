@@ -22,9 +22,7 @@ NAME = "Xing YIN  银星"
 DESCRIPTION = """
 Doctor of Philosophy  工学博士     
 Postdoctoral Fellow at ***Zhejiang University***      
-浙江大学建筑工程学院博士后、助理研究员          
-**Member of Academician Shilang Xu's Lab**             
-浙江大学高性能结构研究所徐世烺院士团队成员       
+浙江大学建筑工程学院博士后、助理研究员               
 """
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -44,7 +42,6 @@ with col1:
 with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
-
 
 st.write("""> *Looking for a Visiting Scholar Position ...*""")
 col3, col4, col5 = st.columns(3, gap="small")
