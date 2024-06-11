@@ -59,7 +59,7 @@ with col3:
 
 with col4:
     st.write("""
-    📧 EMAIL: yinxing@zju.edu.cn        
+    📧 yinxing@zju.edu.cn        
     """)
 
 with col5:
