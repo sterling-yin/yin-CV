@@ -25,8 +25,6 @@ Postdoctoral Fellow at ***Zhejiang University***
 浙江大学建筑工程学院博士后、助理研究员          
 **Member of Academician Shilang Xu's Lab**             
 浙江大学高性能结构研究所徐世烺院士团队成员       
-📧 EMAIL: yinxing@zju.edu.cn        
-💬 WeChat: Sterling_YIN
 """
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
@@ -43,6 +41,10 @@ col1, col2 = st.columns([0.65,0.35], gap="small")
 with col1:
     st.title(NAME)
     st.write(DESCRIPTION)
+    st.write("""
+    📧 EMAIL: yinxing@zju.edu.cn        
+    💬 WeChat: Sterling_YIN
+    """)
 
 with col2:
     st.image(profile_pic, width=230)
