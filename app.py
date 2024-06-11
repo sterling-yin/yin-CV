@@ -187,8 +187,16 @@ with tab2:
 with tab3:
 # --- Complete List of Publications ---
 
+# --- Work in Process 
+   st.subheader('🏗️ Work in Process')
+   st.write(
+    """
+- 📑 [020] Xu H, Li Q\*, Quan G, **Yin X**, Xu S. Dynamic splitting tensile properties of high-strength ultrahigh-toughness cementitious composites (HS-UHTCCs). Submitted to the *Construction and Building Materials*. (Under Review)                        
+- 📑 [019] Wang Q, Li Q\*, **Yin X**, Xu S. Fracture and multiple-cracking modelling of strain-hardening cementitious composites. Submitted to the *International Journal of Mechanical Sciences*. (Under Review)                        
+""") 
+
 # --- 2024
-   st.subheader('🏗️ 2024 | Zhejiang University')
+   st.subheader('✨ 2024 | Zhejiang University')
    st.write(
     """
 - 📑 [018] **Yin X**, Li Q\*, Wang Q, Chen B, Xu S. Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. *International Journal of Impact Engineering*. 2024;XXX:105028. (Just Accepted)                        
