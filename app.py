@@ -44,14 +44,11 @@ col1, col2 = st.columns([0.65,0.35], gap="small")
 with col1:
     st.title(NAME)
     st.write(DESCRIPTION)
+    st.write("📧", EMAIL)
+    st.write("💬", WeChat)
 
 with col2:
     st.image(profile_pic, width=200)
-
-st.write("""> *Looking for a Visiting Scholar Position ...*""")
-col3, col4, col5 = st.columns(3, gap="small")
-
-with col3:
     st.download_button(
         label='📄 Download Resume',
         data=PDFbyte,
@@ -59,11 +56,7 @@ with col3:
         mime='application/octet-stream',
     )
 
-with col4:
-    st.write("📧", EMAIL)
-
-with col5:
-    st.write("💬", WeChat)
+st.write("""> *Looking for a Visiting Scholar Position ...*""")
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(["🌟Introduction", "🎖️Featured Publications", "📑Publications List", "🏛️Academic Lineage", "🗄️Codes"])
 
