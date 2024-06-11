@@ -37,7 +37,7 @@ profile_pic = Image.open(profile_pic)
 # --- HERO SECTION ---
 col1, col2 = st.columns([0.3,0.7], gap="small")
 with col1:
-    st.image(profile_pic, width=150)
+    st.image(profile_pic, width=200)
 
 with col2:
     st.title(NAME)
