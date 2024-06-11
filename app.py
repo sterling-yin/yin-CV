@@ -28,9 +28,6 @@ Postdoctoral Fellow at ***Zhejiang University***
 📧 EMAIL: yinxing@zju.edu.cn        
 💬 WeChat: Sterling_YIN
 """
-EMAIL = "yinxing@zju.edu.cn"
-WeChat = "WeChat: Sterling_YIN"
-
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 
