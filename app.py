@@ -72,6 +72,7 @@ with tab1:
    st.subheader("Biography")
    st.write("""  
 <div style="text-align: justify">  
+            
 I was born in Baotou, Inner Mongolia, China. I received my BEng degree from the *Ocean University of China* in 2017. 
 I pursued further study at the *Zhejiang University* under the supervision of academician Prof. Shilang Xu, and obtained my PhD degree in 2023.
 
