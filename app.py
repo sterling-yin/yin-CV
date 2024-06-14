@@ -37,13 +37,13 @@ with open(resume_file, 'rb') as pdf_file:
 profile_pic = Image.open(profile_pic)
 
 # --- HERO SECTION ---
-col1, col2 = st.columns([0.2,0.8], gap="small")
+col1, col2 = st.columns([0.8,0.2], gap="small")
 with col1:
-    st.image(profile_pic, width=150)
-
-with col2:
     st.title(NAME)
     st.write(DESCRIPTION)
+
+with col2:
+    st.image(profile_pic, width=150)
 
 st.write("""> *Looking for a Visiting Scholar Position ...*""")
 col3, col4, col5 = st.columns(3, gap="small")
