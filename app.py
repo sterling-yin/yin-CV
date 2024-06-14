@@ -23,6 +23,8 @@ DESCRIPTION = """
 Doctor of Philosophy  工学博士     
 Postdoctoral Fellow at ***Zhejiang University***      
 浙江大学建筑工程学院博士后、助理研究员               
+Recipient of the National Postdoctoral Program for Innovative Talent (China)
+入选博士后创新人才支持计划（博新计划）
 """
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
