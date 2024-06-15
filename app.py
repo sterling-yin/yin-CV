@@ -240,7 +240,7 @@ with tab4:
 with tab5:
 # --- Codes ---
    st.write('\n')
-   st.subheader("KCC Model for ECC/SHCC")
+   st.subheader("KCC Model for ECC/SHCC (LS-DYNA)")
    st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
    kc_file = current_dir / "assets" / "KC.k"
    with open(kc_file, "rb") as file:
@@ -249,6 +249,19 @@ with tab5:
         label="📄 Download MAT_072R3 Material Card for ECC/SHCC",
         data=file_content,
         file_name="KC.k",
+        mime='application/octet-stream',
+   )
+   st.write("---")
+   st.write('\n')
+   st.subheader("Strength Surface of KCC Model (MATLAB)")
+   st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
+   kc_strength_surface_file = current_dir / "assets" / "KCC_Strength_Surface.m"
+   with open(kc_file, "rb") as file:
+        file_content = file.read()
+   st.download_button(
+        label="📄 Download Strength Surface of KCC Model",
+        data=file_content,
+        file_name="KCC_Strength_Surface.m",
         mime='application/octet-stream',
    )
    st.write("---")
