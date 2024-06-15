@@ -246,7 +246,7 @@ with tab5:
    with open(kc_file, "rb") as file:
         file_content = file.read()
    st.download_button(
-        label="下载 KC.k 文件",
+        label="📄 Download MAT_072R3 Material Card for ECC/SHCC",
         data=file_content,
         file_name="KC.k",
         mime='application/octet-stream',
