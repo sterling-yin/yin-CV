@@ -251,4 +251,4 @@ with tab5:
         file_name="KC.k",
         mime='application/octet-stream',
    )
-   st.divider()
+   st.write("---")
