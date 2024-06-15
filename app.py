@@ -252,8 +252,6 @@ with tab5:
         mime='application/octet-stream',
    )
    st.write('\n')
-   st.write("---")
-   st.write('\n')
    st.subheader("Strength Surface of KCC Model (MATLAB)")
    st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
    kc_strength_surface_file = current_dir / "assets" / "KCC_Strength_Surface.m"
@@ -265,4 +263,3 @@ with tab5:
         file_name="KCC_Strength_Surface.m",
         mime='application/octet-stream',
    )
-   st.write("---")
