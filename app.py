@@ -267,7 +267,7 @@ with tab5:
    st.write('\n')
 
    st.subheader("RHT Model for UHPFRC/UHPC/RPC (LS-DYNA)")
-   st.caption('[1] X. Yin, Q. Li, Q. Wang, B. Chen, S. Xu, Near range explosion resistance of UHPFRC panels in wide scaled distances : Experimental study and stochastic numerical modelling, Int. J. Impact Eng. 192 (2024) 105028.')
+   st.caption('X. Yin, Q. Li, Q. Wang, B. Chen, S. Xu, Near range explosion resistance of UHPFRC panels in wide scaled distances : Experimental study and stochastic numerical modelling, Int. J. Impact Eng. 192 (2024) 105028.')
    rht_file = current_dir / "assets" / "RHT.k"
    with open(rht_file, "rb") as file:
         file_content = file.read()
