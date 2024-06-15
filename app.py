@@ -247,8 +247,8 @@ with tab5:
     st.download_button(
        label="下载 KC.k 文件",
        data=file_content,
-      file_name="KC.k",
-      mime='application/octet-stream'  # 你可以根据实际文件类型修改 MIME 类型
+       file_name="KC.k",
+       mime='application/octet-stream',
     )
 
 
