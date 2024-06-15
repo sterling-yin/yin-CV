@@ -147,7 +147,7 @@ with tab2:
 }
 
    Publications3 = {
-    "► Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. International Journal of Impact Engineering. 2024;XXX:105028": "https://www.doi.org/10.1016/j.ijimpeng.2024.105028",
+    "► Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. International Journal of Impact Engineering. 2024;192:105028": "https://www.doi.org/10.1016/j.ijimpeng.2024.105028",
 }
 
    Publications4 = {
@@ -194,7 +194,7 @@ with tab3:
    st.subheader('✨ 2024 | Zhejiang University')
    st.write(
     """
-- 📑 [018] **Yin X**, Li Q\*, Wang Q, Chen B, Xu S. Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. *International Journal of Impact Engineering*. 2024;XXX:105028. (Just Accepted)                        
+- 📑 [018] **Yin X**, Li Q\*, Wang Q, Chen B, Xu S. Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. *International Journal of Impact Engineering*. 2024;192:105028.                               
 - 📑 [017] Wang Q, Li Q\*, **Yin X**, Xu S. Structural size effect in the mode I and mixed mode I/II fracture of strain-hardening cementitious composites (SHCC). *International Journal of Solids and Structures*. 2024;288:112628.                        
 - 📑 [016] Li Q\*, Luo A, Hong C, Wang G, **Yin X**, Xu S. Fatigue behavior of short-headed studs embedded in Ultra-high Toughness Cementitious Composites (UHTCC). *Engineering Structures*. 2024;300:117194.                        
 - 📑 [015] **Yin X**, Li Q\*, Wang Q, Chen B, Shu C, Xu S. Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. *International Journal of Mechanical Sciences*. 2024;264:108826.                        
@@ -246,12 +246,13 @@ with tab5:
    with open(kc_file, "rb") as file:
         file_content = file.read()
    st.download_button(
-        label="📄 Download MAT_072R3 Material Card for ECC/SHCC",
+        label="📄 Download MAT_072R3 KCC Material Card for ECC/SHCC",
         data=file_content,
         file_name="KC.k",
         mime='application/octet-stream',
    )
    st.write('\n')
+
    st.subheader("Strength Surface of KCC Model (MATLAB)")
    st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
    kc_strength_surface_file = current_dir / "assets" / "KCC_Strength_Surface.m"
@@ -261,5 +262,18 @@ with tab5:
         label="📄 Download Strength Surface of KCC Model",
         data=file_content,
         file_name="KCC_Strength_Surface.m",
+        mime='application/octet-stream',
+   )
+   st.write('\n')
+
+   st.subheader("RHT Model for UHPFRC/UHPC/RPC (LS-DYNA)")
+   st.caption('[1] X. Yin, Q. Li, Q. Wang, B. Chen, S. Xu, Near range explosion resistance of UHPFRC panels in wide scaled distances : Experimental study and stochastic numerical modelling, Int. J. Impact Eng. 192 (2024) 105028.')
+   rht_file = current_dir / "assets" / "RHT.k"
+   with open(rht_file, "rb") as file:
+        file_content = file.read()
+   st.download_button(
+        label="📄 Download MAT_272 RHT Material Card for UHPFRC/UHPC/RPC",
+        data=file_content,
+        file_name="RHT.k",
         mime='application/octet-stream',
    )
