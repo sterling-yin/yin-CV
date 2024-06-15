@@ -13,7 +13,6 @@ resume_file = current_dir / "assets" / "CV-YINXING.pdf"
 profile_pic = current_dir / "assets" / "profile-pic.jpg"
 map = current_dir / "assets" / "map.png"
 lineage = current_dir / "assets" / "lineage.png"
-kc_file = current_dir / "assets" / "KC.k"
 
 
 
@@ -243,10 +242,11 @@ with tab5:
    st.write('\n')
    st.subheader("KCC Model for ECC/SHCC")
    st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
+   kc_file = current_dir / "assets" / "KC.k"
    st.download_button(
         label='📄 Download KC.k',
-        data=file,
-        file_name=kc_file.name,
+        data=kc_file,
+        file_name='KC.k',
         mime='text/plain',
     )
    st.text('''
