@@ -245,8 +245,9 @@ with tab5:
    st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
    st.download_button(
         label='📄 Download KC.k',
+        data=file,
         file_name=kc_file.name,
-        mime='application/octet-stream',
+        mime='text/plain',
     )
    st.text('''
 *KEYWORD
