@@ -255,7 +255,7 @@ with tab5:
    st.subheader("Strength Surface of KCC Model (MATLAB)")
    st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
    kc_strength_surface_file = current_dir / "assets" / "KCC_Strength_Surface.m"
-   with open(kc_file, "rb") as file:
+   with open(kc_strength_surface_file, "rb") as file:
         file_content = file.read()
    st.download_button(
         label="📄 Download Strength Surface of KCC Model",
