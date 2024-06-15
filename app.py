@@ -242,7 +242,8 @@ with tab5:
    st.write('\n')
    st.subheader("KCC Model for ECC/SHCC")
    st.caption('X. Yin, Q. Li, B. Chen, S. Xu, An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings, Cem. Concr. Compos. 137 (2023) 104911.')
-   with open("KC.k", "rb") as file:
+   kc_file = current_dir / "assets" / "KC.k"
+   with open(kc_file, "rb") as file:
         file_content = file.read()
    st.download_button(
         label="下载 KC.k 文件",
@@ -253,7 +254,6 @@ with tab5:
 
 
    
-   kc_file = current_dir / "assets" / "KC.k"
    binary_contents = b"example content"
    st.download_button("Download binary file", kc_file)
    st.download_button(
