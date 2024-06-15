@@ -251,6 +251,7 @@ with tab5:
         file_name="KC.k",
         mime='application/octet-stream',
    )
+   st.write('\n')
    st.write("---")
    st.write('\n')
    st.subheader("Strength Surface of KCC Model (MATLAB)")
