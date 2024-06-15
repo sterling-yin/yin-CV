@@ -249,7 +249,7 @@ with tab5:
         label='📄 Download KC.k',
         data=kc_file,
         file_name='KC.k',
-        mime='text/plain',
+        mime='application/octet-stream',
     )
    st.text('''
 *KEYWORD
