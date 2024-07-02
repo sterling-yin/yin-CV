@@ -131,7 +131,7 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
    st.subheader("Publication Trend")
    data = {
        'Year': [2021, 2022, 2023, 2024],
-       'Publication': [3, 4, 7, 4]
+       'Publication': [3, 4, 7, 5]
    }
    df = pd.DataFrame(data)
    df.set_index('Year', inplace=True)
@@ -195,14 +195,14 @@ with tab3:
    st.subheader('🏗️ Work in Process')
    st.write(
     """
-- 📑 [020] Xu H, Li Q\*, Quan G, **Yin X**, Xu S. Dynamic splitting tensile properties of high-strength ultrahigh-toughness cementitious composites (HS-UHTCCs). Submitted to the *Construction and Building Materials*. (Under Review)                        
-- 📑 [019] Wang Q, Li Q\*, **Yin X**, Xu S. Fracture and multiple-cracking modelling of strain-hardening cementitious composites. Submitted to the *International Journal of Mechanical Sciences*. (Under Review)                        
+- 📑 [020] Xu H, Li Q\*, Quan G, **Yin X**, Xu S. Dynamic splitting tensile properties of high-strength ultrahigh-toughness cementitious composites (HS-UHTCCs). Submitted to the *Construction and Building Materials*. (Under Review)              
 """) 
 
 # --- 2024
    st.subheader('✨ 2024 | Zhejiang University')
    st.write(
     """
+- 📑 [019] Wang Q, Li Q\*, **Yin X**, Xu S. Fracture and multiple-cracking modelling of strain-hardening cementitious composites. *International Journal of Mechanical Sciences*. 2024;xxx:109540.                       
 - 📑 [018] **Yin X**, Li Q\*, Wang Q, Chen B, Xu S. Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. *International Journal of Impact Engineering*. 2024;192:105028.                               
 - 📑 [017] Wang Q, Li Q\*, **Yin X**, Xu S. Structural size effect in the mode I and mixed mode I/II fracture of strain-hardening cementitious composites (SHCC). *International Journal of Solids and Structures*. 2024;288:112628.                        
 - 📑 [016] Li Q\*, Luo A, Hong C, Wang G, **Yin X**, Xu S. Fatigue behavior of short-headed studs embedded in Ultra-high Toughness Cementitious Composites (UHTCC). *Engineering Structures*. 2024;300:117194.                        
