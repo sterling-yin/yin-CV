@@ -78,8 +78,8 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
 *Int. J. Solids Struct.*(1), with two papers recognized as ESI Highly Cited Papers.
 
 银星，1995年9月出生于内蒙古自治区包头市。长期专注于先进建筑结构与材料**冲击动力学**研究，在工程材料领域的*Cem. Concr. Compos.*(4)、*Cem. Concr. Res.*(1)，
-结构工程领域的*Compos. Struct.*(2)、*Eng. Struct.*(1)，固体力学领域的*Int. J. Mech. Sci.*(1)、*Int. J. Solids Struct.*(1)，
-冲击动力学领域的*Int. J. Impact Eng.*(2)，断裂力学领域的*Eng. Fract. Mech.*(3)等期刊发表高水平SCI论文17篇，其中2篇曾入选ESI高被引论文。    
+结构工程领域的*Compos. Struct.*(2)、*Eng. Struct.*(1)，固体力学领域的*Int. J. Mech. Sci.*(2)、*Int. J. Solids Struct.*(1)，
+冲击动力学领域的*Int. J. Impact Eng.*(2)，断裂力学领域的*Eng. Fract. Mech.*(3)等期刊发表高水平SCI论文18篇，其中2篇曾入选ESI高被引论文。    
 </div>  
 """, unsafe_allow_html=True)  
 
@@ -100,6 +100,15 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
 
 📌 Advanced numerical approach [e.g., meshfree/particle method]      
 先进高保真数值分析方法，如无网格法/粒子法
+""") 
+
+# --- Grants & Awards ---
+   st.write('\n')
+   st.subheader("Grants & Awards")
+   st.write(
+    """
+🎖️ The China National Postdoctoral Program for Innovative Talents (Grant No. BX20240320)       
+入选2024年度博士后创新人才支持计划（资助编号：BX20240320）           
 """) 
 
 # --- Education & Work ---
