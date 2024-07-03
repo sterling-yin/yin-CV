@@ -22,7 +22,7 @@ PAGE_ICON = ":star:"
 NAME = "Xing YIN  银星"
 DESCRIPTION = """
 Doctor of Philosophy  工学博士     
-Postdoctoral Fellow at ***Zhejiang University***      
+Postdoctoral Fellow at the ***Zhejiang University***      
 浙江大学建筑工程学院博士后、助理研究员               
 Recipient of China National Postdoctoral Program for Innovative Talents         
 入选博士后创新人才支持计划（博新计划）
