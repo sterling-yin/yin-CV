@@ -24,7 +24,7 @@ DESCRIPTION = """
 Doctor of Philosophy  工学博士     
 Postdoctoral Fellow at ***Zhejiang University***      
 浙江大学建筑工程学院博士后、助理研究员               
-Recipient of the National Postdoctoral Program for Innovative Talents (China)          
+Recipient of China National Postdoctoral Program for Innovative Talents         
 入选博士后创新人才支持计划（博新计划）
 """
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
@@ -107,7 +107,7 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
    st.subheader("Grants & Awards")
    st.write(
     """
-🎖️ The China National Postdoctoral Program for Innovative Talents (Grant No. BX20240320)       
+🎖️ The fellowship of China National Postdoctoral Program for Innovative Talents (Grant No. BX20240320)       
 入选2024年度博士后创新人才支持计划（资助编号：BX20240320）           
 """) 
 
