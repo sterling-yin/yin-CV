@@ -108,7 +108,7 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
    st.write(
     """
 🎖️ The fellowship of China National Postdoctoral Program for Innovative Talents (Grant No. BX20240320), ¥640,000 CNY, Oct.2023 - Oct.2025        
-2024年度博士后创新人才支持计划，资助编号：BX20240320，64万元，2023/10-2025/10           
+2024年度博士后创新人才支持计划，资助编号：BX20240320，64万元，2024/06-2025/10           
 """) 
 
 # --- Education & Work ---
