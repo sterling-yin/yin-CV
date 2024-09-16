@@ -150,22 +150,13 @@ with tab2:
     "► An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings. Cement and Concrete Composites. 2023;137:104911.": "https://www.doi.org/10.1016/j.cemconcomp.2022.104911",
     "► Investigation of continuous surface cap model (CSCM) for numerical simulation of strain-hardening fibre-reinforced cementitious composites against low-velocity impacts. Composite Structures. 2023;304:116424.": "https://www.doi.org/10.1016/j.compstruct.2022.116424",
     "► Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. International Journal of Mechanical Sciences. 2024;264:108826.": "https://www.doi.org/10.1016/j.ijmecsci.2023.108826",
-}
-
-   Publications3 = {
     "► Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. International Journal of Impact Engineering. 2024;192:105028": "https://www.doi.org/10.1016/j.ijimpeng.2024.105028",
-}
-
-   Publications4 = {
     "► Experimental and numerical investigations on the stress waves propagation in strain-hardening fiber-reinforced cementitious composites: Stochastic analysis using polynomial chaos expansions. Journal of Building Engineering. 2023;74:106902.": "https://www.doi.org/10.1016/j.jobe.2023.106902",
-}
-
-   Publications5 = {
     "► The double-K fracture model: A state-of-the-art review. Engineering Fracture Mechanics. 2023;277:108988.": "https://www.doi.org/10.1016/j.engfracmech.2022.108988",
 }
 
    st.write('\n')
-   st.subheader('🌌 Concrete Constitutive Models')
+   st.subheader('🌌 Selected Publications')
    for article, link in Publications1.items():
        st.write(f"[{article}]({link})")
 
@@ -184,18 +175,11 @@ with tab2:
 with tab3:
 # --- Complete List of Publications ---
 
-# --- Work in Process 
-   st.subheader('🏗️ Work in Process')
-   st.write(
-    """
-- 📑 [020] Xu H, Li Q\*, Quan G, **Yin X**, Xu S. Dynamic splitting tensile properties of high-strength ultrahigh-toughness cementitious composites (HS-UHTCCs). Submitted to the *Construction and Building Materials*. (Under Review)              
-""") 
-
 # --- 2024
-   st.subheader('✨ 2024 | Zhejiang University')
+   st.subheader('🏗️ 2024 | Zhejiang University')
    st.write(
     """
-- 📑 [019] Wang Q, Li Q\*, **Yin X**, Xu S. Fracture and multiple-cracking modelling of strain-hardening cementitious composites. *International Journal of Mechanical Sciences*. 2024;xxx:109540.                       
+- 📑 [019] Wang Q, Li Q\*, **Yin X**, Xu S. Fracture and multiple-cracking modelling of strain-hardening cementitious composites. *International Journal of Mechanical Sciences*. 2024;280:109540.                       
 - 📑 [018] **Yin X**, Li Q\*, Wang Q, Chen B, Xu S. Near range explosion resistance of UHPFRC panels in wide scaled distances: Experimental study and stochastic numerical modelling. *International Journal of Impact Engineering*. 2024;192:105028.                               
 - 📑 [017] Wang Q, Li Q\*, **Yin X**, Xu S. Structural size effect in the mode I and mixed mode I/II fracture of strain-hardening cementitious composites (SHCC). *International Journal of Solids and Structures*. 2024;288:112628.                        
 - 📑 [016] Li Q\*, Luo A, Hong C, Wang G, **Yin X**, Xu S. Fatigue behavior of short-headed studs embedded in Ultra-high Toughness Cementitious Composites (UHTCC). *Engineering Structures*. 2024;300:117194.                        
