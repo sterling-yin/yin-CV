@@ -149,9 +149,6 @@ with tab2:
    Publications1 = {
     "► An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings. Cement and Concrete Composites. 2023;137:104911.": "https://www.doi.org/10.1016/j.cemconcomp.2022.104911",
     "► Investigation of continuous surface cap model (CSCM) for numerical simulation of strain-hardening fibre-reinforced cementitious composites against low-velocity impacts. Composite Structures. 2023;304:116424.": "https://www.doi.org/10.1016/j.compstruct.2022.116424",
-}
-
-   Publications2 = {
     "► Mesoscale numerical investigation of dynamic spalling fracture in toughness concrete. International Journal of Mechanical Sciences. 2024;264:108826.": "https://www.doi.org/10.1016/j.ijmecsci.2023.108826",
 }
 
@@ -170,10 +167,6 @@ with tab2:
    st.write('\n')
    st.subheader('🌌 Concrete Constitutive Models')
    for article, link in Publications1.items():
-       st.write(f"[{article}]({link})")
-
-   st.subheader('🌌 Dynamic Behaviour of Advanced Materials')
-   for article, link in Publications2.items():
        st.write(f"[{article}]({link})")
 
    st.subheader('🌌 Dynamic Response of Engineering Structures')
