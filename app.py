@@ -160,6 +160,18 @@ with tab2:
    for article, link in Publications1.items():
        st.write(f"[{article}]({link})")
 
+   st.subheader('🌌 Dynamic Response of Engineering Structures')
+   for article, link in Publications3.items():
+       st.write(f"[{article}]({link})")
+
+   st.subheader('🌌 Stress Wave Propagation')
+   for article, link in Publications4.items():
+       st.write(f"[{article}]({link})")
+
+   st.subheader('🌌 Concrete Fracture Mechanics')
+   for article, link in Publications5.items():
+       st.write(f"[{article}]({link})")
+
 with tab3:
 # --- Complete List of Publications ---
 
