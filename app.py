@@ -120,7 +120,7 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
 博士后、助理研究员，2023.10-，浙江大学，建筑工程学院，合作导师为国家杰青李庆华教授    
 
 ⭐ PhD, 2017.9-2023.9, Structural Engineering, ***Zhejiang University***, Hangzhou, China (Supervisor: Academician Prof. Shilang Xu)       
-博士研究生，2017.9-2023.9，浙江大学，结构工程专业，导师为中国科学院院士徐世烺教授  
+博士研究生，2017.9-2023.9，浙江大学，结构工程专业，导师为中国科学院院士徐世烺教授和国家杰青李庆华教授   
 
 ⭐ BEng, 2013.8-2017.6, Civil Engineering, ***Ocean University of China***, Qingdao, China          
 本科，2013.8-2017.6，中国海洋大学，土木工程专业    
