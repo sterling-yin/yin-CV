@@ -145,7 +145,7 @@ My research focuses on ***Impact Dynamics***, and I have authored/co-authored 17
 
 with tab2:
 # --- Selected Publications ---
-#   st.subheader('🌌 Selected Publications')
+   st.subheader('🌌 Selected Publications')
 
 #   Publications1 = {
 #    "► An improved calibration of Karagozian & Case concrete/cementitious model for strain-hardening fibre-reinforced cementitious composites under explosion and penetration loadings. Cement and Concrete Composites. 2023;137:104911.": "https://www.doi.org/10.1016/j.cemconcomp.2022.104911",
